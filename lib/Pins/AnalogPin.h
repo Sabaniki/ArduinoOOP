@@ -6,7 +6,7 @@ private:
     int pin;
 
 public:
-    AnalogPin(const int _pin, int boudrate = 9600);
+    AnalogPin(const int _pin);
     int read();
     void write(const int power);
 };
