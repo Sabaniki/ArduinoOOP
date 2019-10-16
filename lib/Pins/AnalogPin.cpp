@@ -1,10 +1,10 @@
 #include "AnalogPin.h"
 #include "Arduino.h"
 
-AnalogPin::AnalogPin(const int _pin): pin(_pin){
+AnalogPin::AnalogPin(const int _pin, int boundrate): pin(_pin){
     if(!digitalPinHasPWM(AnalogPin::pin)){
         if(!Serial.available())
-            Serial.begin(9600);
+            Serial.begin(boundrate);
         Serial.print(pin);
         Serial.println("pin is not pwm pin!");
     }
