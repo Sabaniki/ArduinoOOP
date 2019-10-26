@@ -7,7 +7,7 @@ private:
     int IO_Mode;
 
 public:
-    DigitalPin(const int _pin, const int _IO_Mode);
+    DigitalPin(const int pin, const int IO_Mode);
     bool read();
     void write(const bool mode);
 };

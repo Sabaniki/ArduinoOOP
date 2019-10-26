@@ -1,7 +1,7 @@
 #include "AnalogPin.h"
 #include "Arduino.h"
 
-AnalogPin::AnalogPin(const int _pin, int boundrate): pin(_pin){
+AnalogPin::AnalogPin(const int pin, int boundrate): pin(pin){
     if(!digitalPinHasPWM(AnalogPin::pin)){
         if(!Serial.available())
             Serial.begin(boundrate);
