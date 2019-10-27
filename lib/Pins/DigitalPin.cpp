@@ -1,15 +1,16 @@
 #include "DigitalPin.h"
 #include "Arduino.h"
 
-DigitalPin::DigitalPin(const int pin, const int IO_Mode): pin(pin), IO_Mode(IO_Mode){
-    pinMode(DigitalPin::pin, DigitalPin::IO_Mode);
-    digitalWrite(DigitalPin::pin, LOW);
+DigitalPin::DigitalPin(int pin, int IO_Mode): pin(pin), IO_Mode(IO_Mode){
+    pinMode(pin, IO_Mode);
+    digitalWrite(pin, LOW);
 }
 
 bool DigitalPin::read(){
-    return digitalRead(DigitalPin::pin);
+    return digitalRead(pin);
 }
 
 void DigitalPin::write(bool mode){
-    digitalWrite(DigitalPin::pin, mode);
+    digitalWrite(pin, mode);
 }
+
