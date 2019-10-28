@@ -3,7 +3,7 @@
 #include "DigitalPin.h"
 class UltrasonicSensor {
 private:
-    int triggerPin, echoPin, readTime, dis;
+    int echoPin, readTime, dis;
     const int loopNum = 10;
     DigitalPin trigger;
 

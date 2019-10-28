@@ -4,12 +4,12 @@
 ColorSensor::ColorSensor(int Rpin, int Gpin, int Bpin, int readerPin, const int (&thresholdsRGB)[3][3]): 
 light(Rpin, Gpin, Bpin),
 reader(readerPin) {
-    for (size_t i = 0; i < 3; i++)
-        for (size_t j = 0; j < 3; j++)
+    for (int i = 0; i < 3; i++)
+        for (int j = 0; j < 3; j++)
             thresholds[i][j] = thresholdsRGB[i][j];
         
-    for (size_t i = 0; i < 3; i++){
-        for (size_t j = 0; j < colorNum; j++)
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < colorNum; j++)
             mined[i][j] = 0;
         colorArray[i] = 0;
         readValue[i] = 0;
@@ -20,35 +20,38 @@ reader(readerPin) {
 
 int ColorSensor::readValueRed(){
     int value = 0;
-    for (size_t i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++){
         light.writeRed(1);
         delay(1);
         value += reader.read();
         delay(1);
         light.writeRed(0);
     }
+    return (value / loopNum);
 }
 
 int ColorSensor::readValueGreen(){
     int value = 0;
-    for (size_t i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++){
         light.writeGreen(1);
         delay(1);
         value += reader.read();
         delay(1);
         light.writeGreen(0);
     }
+    return (value / loopNum);
 }
 
 int ColorSensor::readValueBlue(){
     int value = 0;
-    for (size_t i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++){
         light.writeBlue(1);
         delay(1);
         value += reader.read();
         delay(1);
         light.writeBlue(0);
     }
+    return (value / loopNum);
 }
 
 char ColorSensor::read(){

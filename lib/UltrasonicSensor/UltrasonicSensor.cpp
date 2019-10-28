@@ -2,13 +2,14 @@
 #include "Arduino.h"
 
 UltrasonicSensor::UltrasonicSensor(int triggerPin, int echoPin): 
-trigger(triggerPin, OUTPUT), echoPin(echoPin) {
+echoPin(echoPin),
+trigger(triggerPin, OUTPUT) {
 
 }
 
 double UltrasonicSensor::readDistance() {
     dis = 0;
-    for (size_t i = 0; i < loopNum; i++){
+    for (int i = 0; i < loopNum; i++){
         trigger.write(1);
         delayMicroseconds(10);
         trigger.write(0);
