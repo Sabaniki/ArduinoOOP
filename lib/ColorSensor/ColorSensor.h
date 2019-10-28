@@ -16,6 +16,10 @@ private:
 
 public:
     ColorSensor(int Rpin, int Gpin, int Bpin, const int (&thresholdsRGB)[3][3]);
+
+    int readValueRed();
+    int readValueGreen();
+    int readValueBlue();
 };
 
 #endif
