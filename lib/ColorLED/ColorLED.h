@@ -8,6 +8,9 @@ private:
 
 public:
     ColorLED(int redPin, int greenPin, int bluePin);
+    void writeRed(bool mode);
+    void writeGreen(bool mode);
+    void writeBlue(bool mode);
 };
 
 #endif
