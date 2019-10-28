@@ -10,10 +10,10 @@ AnalogPin::AnalogPin(const int pin, int boundrate): pin(pin){
     }
 }
 
-int AnalogPin::read() {
+inline int AnalogPin::read() {
     return analogRead(pin);
 }
 
-void AnalogPin::write(const int power){
+inline void AnalogPin::write(const int power){
     analogWrite(pin, power);
 }

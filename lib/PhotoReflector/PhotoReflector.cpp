@@ -6,11 +6,11 @@ PhotoReflector::PhotoReflector(int pin): readerPin(pin, INPUT_PULLUP), isBlack(f
 
 }
 
-bool PhotoReflector::read(){
+inline bool PhotoReflector::read(){
     isBlack = readerPin.read();
     return isBlack;
 }
 
-bool PhotoReflector::getIsBlack(){
+inline bool PhotoReflector::getIsBlack(){
     return isBlack;
 }
