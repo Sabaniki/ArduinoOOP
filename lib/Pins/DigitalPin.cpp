@@ -13,4 +13,3 @@ inline bool DigitalPin::read(){
 inline void DigitalPin::write(bool mode){
     digitalWrite(pin, mode);
 }
-
