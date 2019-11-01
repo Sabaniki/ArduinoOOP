@@ -1,3 +1,5 @@
+#ifndef ___Cpp_Motor
+#define ___Cpp_Motor
 #include "Motor.h"
 #include "Arduino.h"
 
@@ -12,3 +14,4 @@ void Motor::write(int speed) {
 void Motor::stop() {
 
 }
+#endif

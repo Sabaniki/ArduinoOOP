@@ -1,3 +1,5 @@
+#ifndef ___Cpp_UltrasonicSensor
+#define ___Cpp_UltrasonicSensor
 #include "UltrasonicSensor.h"
 #include "Arduino.h"
 
@@ -18,3 +20,4 @@ double UltrasonicSensor::readDistance() {
     }
     return (dis / 10);
 }
+#endif

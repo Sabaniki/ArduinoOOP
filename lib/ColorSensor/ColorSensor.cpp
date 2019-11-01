@@ -1,3 +1,5 @@
+#ifndef ___Cpp_ColorSensor
+#define ___Cpp_ColorSensor
 #include "ColorSensor.h"
 #include "Arduino.h"
 
@@ -94,3 +96,4 @@ char ColorSensor::read(){
     else   //LoopCount == 2
         return Bl;
 }
+#endif

@@ -1,3 +1,5 @@
+#ifndef ___Cpp_ColorLED
+#define ___Cpp_ColorLED
 #include "ColorLED.h"
 #include "Arduino.h"
 
@@ -17,3 +19,4 @@ inline void ColorLED::writeGreen(bool mode){
 inline void ColorLED::writeBlue(bool mode){
     blue.write(mode);
 }
+#endif

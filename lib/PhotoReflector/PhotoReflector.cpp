@@ -1,3 +1,5 @@
+#ifndef ___Cpp_PhtoReflector
+#define ___Cpp_PhtoReflector
 #include "PhotoReflector.h"
 #include "DigitalPin.h"
 #include "Arduino.h"
@@ -14,3 +16,4 @@ inline bool PhotoReflector::read(){
 inline bool PhotoReflector::getIsBlack(){
     return isBlack;
 }
+#endif
