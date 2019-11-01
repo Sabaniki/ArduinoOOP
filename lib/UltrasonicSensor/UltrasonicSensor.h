@@ -1,6 +1,7 @@
 #ifndef ___Class_UltrasonicSensor
 #define ___Class_UltrasonicSensor
 #include "DigitalPin.h"
+#include "DigitalPin.cpp"
 class UltrasonicSensor {
 private:
     int echoPin, readTime, dis;

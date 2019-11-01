@@ -1,6 +1,7 @@
 #ifndef ___Class_PhtoReflector
 #define ___Class_PhtoReflector
 #include "DigitalPin.h"
+#include "DigitalPin.cpp"
 class PhotoReflector{
 private:
     DigitalPin readerPin;

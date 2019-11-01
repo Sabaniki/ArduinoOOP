@@ -1,6 +1,7 @@
 #ifndef ___Class_ColorSensor
 #define ___Class_ColorSensor
 #include "ColorLED.h"
+#include "ColorLED.cpp"
 #include "AnalogPin.h"
 class ColorSensor {
 private:
