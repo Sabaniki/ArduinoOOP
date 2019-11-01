@@ -11,11 +11,11 @@ void setup() {
 }
 
 void loop() {
-	auto led = AnalogPin(13);
+	auto led = DigitalPin(13, OUTPUT);
 	while(true){
-		for (int i = 0; i < 100; i++){
-			led.write(i);
-			delay(20);
-		}
+		led.write(true);
+		delay(100);
+		led.write(false);
+		delay(100);
 	}
 }
