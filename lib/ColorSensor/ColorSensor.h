@@ -1,29 +1,23 @@
 #ifndef ___Class_ColorSensor
 #define ___Class_ColorSensor
-#include "ColorLED.h"
-#include "ColorLED.cpp"
+#include "DigitalPin.h"
+#include "DigitalPin.cpp"
 #include "AnalogPin.h"
+#include "AnalogPin.cpp"
 class ColorSensor {
 private:
-    int thresholds[3][3];
-    ColorLED light;
+    // { 0: 赤の閾値, 1: 緑の閾値 }
+    int thresholds[2];
+    DigitalPin redLED, greenLED;
     AnalogPin reader;
-    int aveR, aveG, aveB;
-	const int colorNum = 3;
-	const int loopNum = 10;
-	int mined[3][3];
-	int colorArray[3];
-	int readValue[3];
-	int copyedColorArray[3];
-	const char G = 'G', W = 'W', Bl = 'B';
+    const int numOfIterartion = 5;
 
 public:
-    ColorSensor(int Rpin, int Gpin, int Bpin, int readerPin, const int (&thresholdsRGB)[3][3]);
-
-    int readValueRed();
-    int readValueGreen();
-    int readValueBlue();
-    char read();
+    ColorSensor(int Rpin, int Gpin, int readerPin, const int (&thresholdsRG)[2]);
+    // 赤色LEDを照射した際に黒が返ってくるかどうか
+    bool irradiateRed();
+    // 緑色LEDを照射した際に黒が返ってくるかどうか
+    bool irradiateGreen();
 };
 
 #endif

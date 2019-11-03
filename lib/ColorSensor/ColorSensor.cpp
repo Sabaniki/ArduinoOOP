@@ -1,99 +1,43 @@
 #ifndef ___Cpp_ColorSensor
 #define ___Cpp_ColorSensor
 #include "ColorSensor.h"
+#include "DigitalPin.h"
+#include "DigitalPin.cpp"
+#include "AnalogPin.h"
+#include "AnalogPin.cpp"
 #include "Arduino.h"
 
-ColorSensor::ColorSensor(int Rpin, int Gpin, int Bpin, int readerPin, const int (&thresholdsRGB)[3][3]): 
-light(Rpin, Gpin, Bpin),
-reader(readerPin) {
-    for (int i = 0; i < 3; i++)
-        for (int j = 0; j < 3; j++)
-            thresholds[i][j] = thresholdsRGB[i][j];
-        
-    for (int i = 0; i < 3; i++){
-        for (int j = 0; j < colorNum; j++)
-            mined[i][j] = 0;
-        colorArray[i] = 0;
-        readValue[i] = 0;
-        copyedColorArray[i] = 0;
-        
-    }
-}
+ColorSensor::ColorSensor(int Rpin, int Gpin, int readerPin, const int (&thresholdsRG)[2]):
+redLED(Rpin, OUTPUT),
+greenLED(Gpin, OUTPUT),
+reader(readerPin)
+{}
 
-int ColorSensor::readValueRed(){
+bool ColorSensor::irradiateRed(){
     int value = 0;
-    for (int i = 0; i < 3; i++){
-        light.writeRed(1);
+    for (size_t i = 0; i < numOfIterartion; i++){
+        redLED.write(true);
         delay(1);
         value += reader.read();
         delay(1);
-        light.writeRed(0);
+        redLED.write(false);
+        delay(1);
     }
-    return (value / loopNum);
+    value /= numOfIterartion;
+    return (value < thresholds[0] ? true: false);
 }
 
-int ColorSensor::readValueGreen(){
+bool ColorSensor::irradiateGreen(){
     int value = 0;
-    for (int i = 0; i < 3; i++){
-        light.writeGreen(1);
+    for (size_t i = 0; i < numOfIterartion; i++){
+        greenLED.write(true);
         delay(1);
         value += reader.read();
         delay(1);
-        light.writeGreen(0);
-    }
-    return (value / loopNum);
-}
-
-int ColorSensor::readValueBlue(){
-    int value = 0;
-    for (int i = 0; i < 3; i++){
-        light.writeBlue(1);
+        greenLED.write(false);
         delay(1);
-        value += reader.read();
-        delay(1);
-        light.writeBlue(0);
     }
-    return (value / loopNum);
-}
-
-char ColorSensor::read(){
-    readValue[0] = readValueRed();
-    readValue[1] = readValueGreen();
-    readValue[2] = readValueBlue();
-
-    int tmp = 0, loopCount = 0;
-
-    for(int i = 0; i  < colorNum; i++)
-        for(int j = 0; j < 3; j++)
-            mined[i][j] = thresholds[i][j] - readValue[j];
-
-    for(int i = 0; i  < colorNum; i++)
-        for(int j = 0; j < 3; j++)
-            mined[i][j] = abs(mined[i][j]);
-    for(int i = 0; i  < colorNum; i++)
-        colorArray[i] = mined[i][0] + mined[i][1] + mined[i][2];
-
-	for (int i = 0; i < colorNum; i++)
-		copyedColorArray[i] = colorArray[i];    
-
-    for (int i = 0; i < colorNum; i++)
-        for (int j = i + 1; j < colorNum; j++)
-            if (copyedColorArray[i] > copyedColorArray[j]){
-                tmp = copyedColorArray[i];
-                copyedColorArray[i] = copyedColorArray[j];
-                copyedColorArray[j] = tmp;
-            }
-
-    while ((copyedColorArray[0] != colorArray[loopCount]) && loopCount < colorNum)
-        loopCount += 1;
-
-    if (loopCount == 0)
-        return G;
-
-    else if (loopCount == 1)
-        return W;
-
-    else   //LoopCount == 2
-        return Bl;
+    value /= numOfIterartion;
+    return (value < thresholds[1] ? true: false);
 }
 #endif
