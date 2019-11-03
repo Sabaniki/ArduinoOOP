@@ -24,7 +24,7 @@ bool ColorSensor::irradiateRed(){
         delay(1);
     }
     value /= numOfIterartion;
-    return (value < thresholds[0] ? true: false);
+    return (value < thresholds[0]);
 }
 
 bool ColorSensor::irradiateGreen(){
@@ -38,6 +38,6 @@ bool ColorSensor::irradiateGreen(){
         delay(1);
     }
     value /= numOfIterartion;
-    return (value < thresholds[1] ? true: false);
+    return (value < thresholds[1]);
 }
 #endif
