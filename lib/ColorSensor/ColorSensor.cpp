@@ -15,7 +15,7 @@ reader(readerPin)
 
 bool ColorSensor::irradiateRed(){
     int value = 0;
-    for (size_t i = 0; i < numOfIterartion; i++){
+    for (int i = 0; i < numOfIterartion; i++){
         redLED.write(true);
         delay(1);
         value += reader.read();
@@ -29,7 +29,7 @@ bool ColorSensor::irradiateRed(){
 
 bool ColorSensor::irradiateGreen(){
     int value = 0;
-    for (size_t i = 0; i < numOfIterartion; i++){
+    for (int i = 0; i < numOfIterartion; i++){
         greenLED.write(true);
         delay(1);
         value += reader.read();
