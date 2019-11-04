@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 #ifndef ___Cpp_AnalogPin
 #define ___Cpp_AnalogPin
+=======
+>>>>>>> 07aa2bf6fa64290f2b1119cc7cba8d47c0cd344d
 #include "AnalogPin.h"
 #include "Arduino.h"
 
@@ -18,5 +21,9 @@ inline int AnalogPin::read() {
 
 inline void AnalogPin::write(const int power){
     analogWrite(pin, power);
+<<<<<<< HEAD
 }
 #endif
+=======
+}
+>>>>>>> 07aa2bf6fa64290f2b1119cc7cba8d47c0cd344d
