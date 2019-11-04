@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 #ifndef ___Cpp_DigitalPin
 #define ___Cpp_DigitalPin
-=======
->>>>>>> 07aa2bf6fa64290f2b1119cc7cba8d47c0cd344d
 #include "DigitalPin.h"
 #include "Arduino.h"
 
@@ -17,9 +14,6 @@ inline bool DigitalPin::read(){
 
 inline void DigitalPin::write(bool mode){
     digitalWrite(pin, mode);
-<<<<<<< HEAD
 }
 #endif
-=======
-}
->>>>>>> 07aa2bf6fa64290f2b1119cc7cba8d47c0cd344d
+
