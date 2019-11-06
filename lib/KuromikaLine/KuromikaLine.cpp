@@ -3,21 +3,21 @@
 #include "KuromikaLine.h"
 #include "Arduino.h"
 
-KuromikaLine::KuromikaLine(int greenPin, const int (&readerPins)[4], int threshold):
+KuromikaLine::KuromikaLine(int greenPin, int readerPin, int threshold):
+    reader(readerPin),
     threshold(threshold),
     green(greenPin, OUTPUT) {
-    for (size_t i = 0; i < 4; i++)
-        readers[i].initPin(readerPins[i]);
     green.write(true);
+    beforeValue = reader.read();
 }
 
 bool KuromikaLine::read(){
-    beforeValue = readers[0].read();
-    nextValue = readers[0].read();
-    diff = beforeValue - nextValue;
-    bool isOverRange = abs(diff) > threshold;
-    if(isOverRange)
+    nextValue = reader.read();
+    sumOfDeviation += (beforeValue - nextValue);
+    if(abs(sumOfDeviation) > threshold){
         result = !result;
+        sumOfDeviation = 0;
+    }
     beforeValue = nextValue;
     return result;
 }

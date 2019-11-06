@@ -6,24 +6,17 @@
 #include "DigitalPin.cpp"
 class KuromikaLine {
 private:
-    AnalogPin readers[4] = { 
-        AnalogPin(),
-        AnalogPin(),
-        AnalogPin(),
-        AnalogPin(),
-    };
-    
+    AnalogPin reader;
     DigitalPin green;
     bool result = false;
     int threshold;
     int beforeValue = 0;
     int nextValue = 0;
-    int diff = 0;
+    int sumOfDeviation = 0;
 
 
-public:
-    // readerPins: { pin1: int, ... pin4: int } ← 本当はpin5まで
-    KuromikaLine(int greenPin, const int (&reaerPins)[4],  int threshold);
+public: 
+    KuromikaLine(int greenPin, int reader,  int threshold);
 
     // 黒が返ってくるかどうか
     bool read();
