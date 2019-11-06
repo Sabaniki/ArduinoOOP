@@ -14,8 +14,12 @@ KuromikaLine::KuromikaLine(int greenPin, int readerPin, int threshold):
 bool KuromikaLine::read(){
     nextValue = reader.read();
     sumOfDeviation += (beforeValue - nextValue);
-    if(abs(sumOfDeviation) > threshold){
-        result = !result;
+    if(sumOfDeviation > threshold){
+        result = true;
+        sumOfDeviation = 0;
+    }
+    else if (sumOfDeviation < -threshold){
+        result = false;
         sumOfDeviation = 0;
     }
     beforeValue = nextValue;
