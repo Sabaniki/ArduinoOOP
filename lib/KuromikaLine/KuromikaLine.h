@@ -12,9 +12,11 @@ private:
     };
 
 public:
-    // readerPins: { pin1: int, ... pin4: int } ← 本当はpin5までだけど篠崎がやらかしたからとりあえず4まで
+    // readerPins: { pin1: int, ... pin4: int } ← 本当はpin5まで
     KuromikaLine(int Rpin, int Lpin, const int (&reaerPins)[4], const int (&thresholdsRG)[2]);
-
+    
+    // 黒が帰ってくるかどうか
+    bool read();
 };
 
 #endif

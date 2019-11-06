@@ -6,6 +6,9 @@
 KuromikaLine::KuromikaLine(int Rpin, int Lpin, const int (&readerPins)[4], const int (&thresholdsRG)[2]) {
     for (size_t i = 0; i < 4; i++)
         readers[i].initPin(readerPins[i]);
+}
+
+bool KuromikaLine::read(){
     
 }
 #endif
