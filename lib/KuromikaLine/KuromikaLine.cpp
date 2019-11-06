@@ -3,23 +3,20 @@
 #include "KuromikaLine.h"
 #include "Arduino.h"
 
-KuromikaLine::KuromikaLine(int greenPin, int readerPin, int threshold):
+KuromikaLine::KuromikaLine(int greenPin, int readerPin, int threshold, bool isCenter):
     reader(readerPin),
     threshold(threshold),
-    green(greenPin, OUTPUT) {
+    green(greenPin, OUTPUT),
+    beforeValue(reader.read()),
+    result(isCenter) {
     green.write(true);
-    beforeValue = reader.read();
 }
 
 bool KuromikaLine::read(){
     nextValue = reader.read();
     sumOfDeviation += (beforeValue - nextValue);
-    if(sumOfDeviation > threshold){
-        result = true;
-        sumOfDeviation = 0;
-    }
-    else if (sumOfDeviation < -threshold){
-        result = false;
+    if(abs(sumOfDeviation) > threshold){
+        result = !result;
         sumOfDeviation = 0;
     }
     beforeValue = nextValue;

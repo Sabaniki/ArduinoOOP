@@ -8,7 +8,7 @@ class KuromikaLine {
 private:
     AnalogPin reader;
     DigitalPin green;
-    bool result = false;
+    bool result;
     int threshold;
     int beforeValue = 0;
     int nextValue = 0;
@@ -16,7 +16,7 @@ private:
 
 
 public: 
-    KuromikaLine(int greenPin, int reader,  int threshold);
+    KuromikaLine(int greenPin, int reader,  int threshold, bool isCenter);
 
     // 黒が返ってくるかどうか
     bool read();
