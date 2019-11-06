@@ -11,11 +11,10 @@ void setup() {
 }
 
 void loop() {
-	auto led = DigitalPin(13, OUTPUT);
-	while(true){
-		led.write(true);
-		delay(100);
-		led.write(false);
-		delay(100);
+	auto pin = AnalogPin(A0);
+	while (true){
+		Serial.print("result: ");
+		Serial.println(pin.read());
 	}
+	
 }
