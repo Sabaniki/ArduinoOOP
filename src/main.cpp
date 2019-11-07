@@ -16,5 +16,4 @@ void loop() {
 		Serial.print("result: ");
 		Serial.println(pin.read());
 	}
-	
 }

@@ -13,7 +13,6 @@ greenLED(Gpin, OUTPUT),
 reader(readerPin)
 {}
 
-int ColorSensor::count = 0;
 
 bool ColorSensor::irradiateRed(){
     greenLED.write(false);

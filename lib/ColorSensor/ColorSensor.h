@@ -11,7 +11,6 @@ private:
     DigitalPin redLED, greenLED;
     AnalogPin reader;
     const int numOfIterartion = 5;
-    static int count;
 
 public:
     ColorSensor(int Rpin, int Gpin, int readerPin, const int (&thresholdsRG)[2]);
