@@ -6,19 +6,15 @@
 #include "DigitalPin.cpp"
 class KuromikaLine {
 private:
-    AnalogPin reader;
-    DigitalPin green;
-    bool result;
+private:
     int threshold;
-    int beforeValue = 0;
-    int nextValue = 0;
-    int sumOfDeviation = 0;
+    DigitalPin redLED, greenLED;
+    AnalogPin reader;
+    const int numOfIterartion = 5;
 
-
-public: 
-    KuromikaLine(int greenPin, int reader,  int threshold, bool isCenter);
-
-    // 黒が返ってくるかどうか
+public:
+    KuromikaLine(int redPin, int greenPin, int readerPin, int threshold);
+    // 緑LEDを照射した状態で黒が返ってくるかどうか
     bool read();
 };
 
