@@ -28,8 +28,8 @@ void Motor::write(int speed) {
     else if(!speed){
         if(mode != Brake)
             stop();
-        front.write(speed);
-        back.write(speed);
+        front.write(255);
+        back.write(255);
         mode = Brake;
     }
     else {
