@@ -13,7 +13,9 @@ greenLED(Gpin, OUTPUT),
 reader(readerPin)
 {}
 
+
 bool ColorSensor::irradiateRed(){
+    greenLED.write(false);
     int value = 0;
     for (int i = 0; i < numOfIterartion; i++){
         redLED.write(true);
@@ -24,10 +26,12 @@ bool ColorSensor::irradiateRed(){
         delay(1);
     }
     value /= numOfIterartion;
+    greenLED.write(true);
     return (value < thresholds[0]);
 }
 
 bool ColorSensor::irradiateGreen(){
+    greenLED.write(false);
     int value = 0;
     for (int i = 0; i < numOfIterartion; i++){
         greenLED.write(true);
@@ -38,6 +42,7 @@ bool ColorSensor::irradiateGreen(){
         delay(1);
     }
     value /= numOfIterartion;
+    greenLED.write(true);
     return (value < thresholds[1]);
 }
 #endif
