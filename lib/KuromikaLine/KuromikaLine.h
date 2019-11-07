@@ -8,12 +8,12 @@ class KuromikaLine {
 private:
 private:
     int threshold;
-    DigitalPin redLED, greenLED;
+    DigitalPin greenLED;
     AnalogPin reader;
     const int numOfIterartion = 5;
 
 public:
-    KuromikaLine(int redPin, int greenPin, int readerPin, int threshold);
+    KuromikaLine(int greenPin, int readerPin, int threshold);
     // 緑LEDを照射した状態で黒が返ってくるかどうか
     bool read();
 };
