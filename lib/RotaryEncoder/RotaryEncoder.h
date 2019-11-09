@@ -4,13 +4,14 @@
 #include "PhotoReflector.cpp"
 class RotaryEncoder {
 private:
-    int whiteCount = 0, blackCount = 0, currentCount = 0;
+    int currentCount = 0;
     bool finished = true, beforeState = false, nowState = false;
     PhotoReflector pht;
 
 public:
     RotaryEncoder(int readerPin);
     bool until(int times);
+    int getCurrentCount();
 };
 
 #endif

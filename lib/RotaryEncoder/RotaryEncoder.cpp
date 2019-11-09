@@ -11,14 +11,19 @@ RotaryEncoder::RotaryEncoder(int readerPin):
 }
 
 bool RotaryEncoder::until(int count){
-    if(finished) 
+    if(finished)
         currentCount = count;
     nowState = pht.read();
+    finished = false;
     if(beforeState != nowState){
         currentCount--;
         finished = !(currentCount > 0);
     }
     beforeState = nowState;
     return !finished;
+}
+
+inline int RotaryEncoder::getCurrentCount(){
+    return currentCount;
 }
 #endif
