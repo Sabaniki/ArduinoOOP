@@ -16,10 +16,22 @@ void setup() {
 }
 
 void loop() {
-	// auto motorL = Motor(4, 5);
-	// auto motorR = Motor(3, 2);
-	auto pin = AnalogPin(A0);
-	// while (true){
-	// 	led.write(1);
-	// }
+	AnalogPin pins[5] = {
+		AnalogPin(A2),
+		AnalogPin(A3),
+		AnalogPin(A4),
+		AnalogPin(A5),
+		AnalogPin(A6),
+	};
+	delay(1000);
+
+	while (true){
+		// for (size_t i = 0; i < 4; i++) {
+		// 	Serial.print(pins[i].read());
+		// 	Serial.print(",");
+		// }
+		Serial.print(pins[0].read());
+		Serial.println("");
+		delay(100);
+	}
 }
