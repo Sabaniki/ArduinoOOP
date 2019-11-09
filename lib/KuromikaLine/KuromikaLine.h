@@ -10,12 +10,13 @@ private:
     int threshold;
     DigitalPin greenLED;
     AnalogPin reader;
-    const int numOfIterartion = 5;
+    int numOfIteration = 5;
 
 public:
     KuromikaLine(int greenPin, int readerPin, int threshold);
     // 緑LEDを照射した状態で黒が返ってくるかどうか
     bool read();
+    void setNumOfIteration(int numOfIteration);
 };
 
 #endif
