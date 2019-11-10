@@ -20,6 +20,7 @@ bool RotaryEncoder::until(int count){
         finished = !(currentCount > 0);
     }
     beforeState = nowState;
+    delay(1);
     return !finished;
 }
 
