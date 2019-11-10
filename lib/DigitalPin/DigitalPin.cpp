@@ -15,5 +15,13 @@ inline bool DigitalPin::read(){
 inline void DigitalPin::write(bool mode){
     digitalWrite(pin, mode);
 }
+
+inline int DigitalPin::getPinNumber(){
+    return pin;
+}
+
+inline int DigitalPin::getIO_Mode(){
+    return IO_Mode;
+}
 #endif
 

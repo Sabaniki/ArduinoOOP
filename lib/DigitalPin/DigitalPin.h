@@ -10,5 +10,7 @@ public:
     DigitalPin(int pin, int IO_Mode);
     bool read();
     void write(const bool mode);
+    int getPinNumber();
+    int getIO_Mode();
 };
 #endif
