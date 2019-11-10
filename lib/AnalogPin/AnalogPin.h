@@ -11,6 +11,7 @@ public:
     int read();
     void write(const int power);
     void initPin(int pin);
+    int getPinNum();
 };
 
 #endif

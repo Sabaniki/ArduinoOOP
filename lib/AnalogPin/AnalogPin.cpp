@@ -4,12 +4,6 @@
 #include "Arduino.h"
 
 AnalogPin::AnalogPin(const int pin, int boundrate): pin(pin){
-    // if(!digitalPinHasPWM(pin)){
-    //     if(!Serial.available())
-    //         Serial.begin(boundrate);
-    //     Serial.print(pin);
-    //     Serial.println("pin is not pwm pin!");
-    // }
 }
 
 AnalogPin::AnalogPin(): pin(-999) {}
@@ -29,5 +23,9 @@ inline void AnalogPin::initPin(int pin){
         Serial.print(this->pin);
         Serial.println(" is already initialized");
     }
+}
+
+inline int AnalogPin::getPinNum(){
+    return pin;
 }
 #endif
