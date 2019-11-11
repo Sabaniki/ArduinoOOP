@@ -5,12 +5,25 @@
 #include "DigitalPin.cpp"
 #include "Arduino.h"
 
-PhotoReflector::PhotoReflector(int pin): readerPin(pin, INPUT_PULLUP), isBlack(false){
+PhotoReflector::PhotoReflector(int pin):
+    readerPinD(pin, INPUT_PULLUP),
+    readerPinA(-1),
+    isBlack(false),
+    useAsDigital(true) {
+    readerPinA.~AnalogPin();
+}
 
+PhotoReflector::PhotoReflector(int pin, int threshold):
+    readerPinD(-1, -1),
+    readerPinA(pin),
+    isBlack(false),
+    threshold(threshold),
+    useAsDigital(false) {
+    readerPinD.~DigitalPin();
 }
 
 inline bool PhotoReflector::read(){
-    isBlack = readerPin.read();
+    isBlack = useAsDigital? readerPinD.read(): (readerPinA.read() < threshold);
     return isBlack;
 }
 
