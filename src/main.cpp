@@ -16,22 +16,55 @@ void setup() {
 }
 
 void loop() {
-	AnalogPin pins[5] = {
-		AnalogPin(A2),
-		AnalogPin(A3),
-		AnalogPin(A4),
-		AnalogPin(A5),
-		AnalogPin(A6),
-	};
-	delay(1000);
+	auto xPin = AnalogPin(A0);
+	auto yPin = AnalogPin(A1);
+	const float baseX = 1.48;
+	const float baseY = 1.48;
+	const float dt = 1.000;
 
-	while (true){
-		// for (size_t i = 0; i < 4; i++) {
-		// 	Serial.print(pins[i].read());
-		// 	Serial.print(",");
-		// }
-		Serial.print(pins[0].read());
+	while (true) {
+		float x = xPin.read();
+		float y = yPin.read();
+		float degX = 0;
+		float degY = 0;
+		float vecX = 0;
+		float vecY = 0;
+
+		
+
+		x *= 5;
+		x /= 1023;
+
+		y *= 5;
+		y /= 1023;
+
+		Serial.print("x: ");
+		Serial.print(x);
+		Serial.print(", ");
+
+		Serial.print("y: ");
+		Serial.print(y);
 		Serial.println("");
-		delay(100);
+
+		vecX = (x - baseX) / (0.67 / 1000);
+		vecY = (y - baseY) / (0.67 / 1000);
+		Serial.print("g1: ");
+		Serial.print(vecX);
+		Serial.print(", ");
+		Serial.print("g2: ");
+		Serial.println(vecY);
+		degX += vecX*dt;
+		degY += vecY*dt;
+		Serial.print("degX:");
+		Serial.print(degX);
+		Serial.print(", ");
+		Serial.print("degY:");
+		Serial.println(degY);
+		delay(1000);
+		// Serial.print(x);
+		// Serial.print(",");
+		// Serial.print(y);
+		// Serial.println("");
 	}
+	
 }

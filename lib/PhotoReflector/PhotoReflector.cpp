@@ -9,7 +9,8 @@ PhotoReflector::PhotoReflector(int pin):
     readerPinD(pin, INPUT_PULLUP),
     readerPinA(-1),
     isBlack(false),
-    useAsDigital(true) {
+    useAsDigital(true),
+    threshold(-1) {
     readerPinA.~AnalogPin();
 }
 
@@ -17,8 +18,9 @@ PhotoReflector::PhotoReflector(int pin, int threshold):
     readerPinD(-1, -1),
     readerPinA(pin),
     isBlack(false),
-    threshold(threshold),
-    useAsDigital(false) {
+    useAsDigital(false),
+    threshold(threshold)
+     {
     readerPinD.~DigitalPin();
 }
 
