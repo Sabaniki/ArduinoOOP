@@ -3,13 +3,19 @@
 #include "AnalogPin.h"
 #include "Arduino.h"
 
-AnalogPin::AnalogPin(const int pin, int boundrate): pin(pin){
+AnalogPin::AnalogPin(const int pin):
+    pin(pin),
+    useOffset(false){
 }
-
-AnalogPin::AnalogPin(): pin(-999) {}
+AnalogPin::AnalogPin(const int pin, int offset):
+    pin(pin),
+    useOffset(true){
+}
+AnalogPin::AnalogPin(): pin(-999), useOffset(false) {}
 
 inline int AnalogPin::read() {
-    return analogRead(pin);
+    if(useOffset) return (analogRead(pin) - offset);
+    else return analogRead(pin);
 }
 
 inline void AnalogPin::write(const int power){

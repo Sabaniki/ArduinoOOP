@@ -3,10 +3,12 @@
 
 class AnalogPin{
 private:
-    int pin;
+    int pin, offset;
+    bool useOffset;
 
 public:
-    AnalogPin(const int pin, int boundrate = 9600);
+    AnalogPin(const int pin);
+    AnalogPin(const int pin, int offset);
     AnalogPin();
     int read();
     void write(const int power);

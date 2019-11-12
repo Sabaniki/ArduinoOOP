@@ -23,14 +23,18 @@ void loop() {
 		AnalogPin(A5),
 		AnalogPin(A6),
 	};
-	delay(1000);
 
+	auto  greenLED = DigitalPin(1, OUTPUT);
+	auto  redLED = DigitalPin(2, OUTPUT);
+	greenLED.write(true);
+	delay(1000);
+	
 	while (true){
 		for (size_t i = 0; i < 4; i++) {
 			Serial.print(pins[i].read());
 			Serial.print(",");
 		}
-		Serial.print(pins[0].read());
+		Serial.print(pins[4].read());
 		Serial.println("");
 		delay(100);
 	}

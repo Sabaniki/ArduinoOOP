@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
     auto motorL = Motor(4, 5);
-    auto motorR = Motor(2, 3);
+    auto motorR = Motor(3, 2);
 
     while (true){
         motorL.write(255);
