@@ -18,14 +18,14 @@ void setup() {
 void loop() {
 	AnalogPin pins[5] = {
 		AnalogPin(A2),
-		AnalogPin(A3),
 		AnalogPin(A4),
 		AnalogPin(A5),
 		AnalogPin(A6),
+		AnalogPin(A7),
 	};
 
-	auto  greenLED = DigitalPin(1, OUTPUT);
-	auto  redLED = DigitalPin(2, OUTPUT);
+	auto  greenLED = DigitalPin(8, OUTPUT);
+	auto  redLED = DigitalPin(9, OUTPUT);
 	greenLED.write(true);
 	delay(1000);
 	

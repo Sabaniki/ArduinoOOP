@@ -18,23 +18,21 @@ void setup() {
 }
 
 void loop() {
-    const int greenPin = -1;
-    const int threshold = -1;
+	int threshold = 750;
 	KuromikaLine lineSensors[5] = {
-		KuromikaLine(greenPin, A2, threshold),
-		KuromikaLine(greenPin, A3, threshold),
-		KuromikaLine(greenPin, A4, threshold),
-		KuromikaLine(greenPin, A5, threshold),
-		KuromikaLine(greenPin, A6, threshold),
+		KuromikaLine(8, A2, threshold),
+		KuromikaLine(8, A4, threshold),
+		KuromikaLine(8, A5, threshold),
+		KuromikaLine(8, A6, threshold),
+		KuromikaLine(8, A7, threshold),
 	};
-	delay(1000);
-
+	
 	while (true){
 		for (size_t i = 0; i < 4; i++) {
 			Serial.print(lineSensors[i].read());
-			Serial.print(", ");
+			Serial.print(",");
 		}
-		Serial.print(lineSensors[0].read());
+		Serial.print(lineSensors[4].read());
 		Serial.println("");
 		delay(100);
 	}

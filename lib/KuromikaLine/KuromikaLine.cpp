@@ -4,6 +4,7 @@
 #include "Arduino.h"
 
 KuromikaLine::KuromikaLine(int greenPin, int readerPin, int threshold):
+    threshold(threshold),
     greenLED(greenPin, OUTPUT),
     reader(readerPin){
     greenLED.write(true);

@@ -7,15 +7,17 @@ AnalogPin::AnalogPin(const int pin):
     pin(pin),
     useOffset(false){
 }
+
 AnalogPin::AnalogPin(const int pin, int offset):
     pin(pin),
-    useOffset(true){
+    offset(offset),
+    useOffset(true)
+    {
 }
 AnalogPin::AnalogPin(): pin(-999), useOffset(false) {}
 
 inline int AnalogPin::read() {
-    if(useOffset) return (analogRead(pin) - offset);
-    else return analogRead(pin);
+    return useOffset? (analogRead(pin) - offset): analogRead(pin);
 }
 
 inline void AnalogPin::write(const int power){

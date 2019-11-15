@@ -16,24 +16,22 @@ void setup() {
 }
 
 void loop() {
-	AnalogPin pins[5] = {
-		AnalogPin(A2),
-		AnalogPin(A4),
-		AnalogPin(A5),
-		AnalogPin(A6),
-		AnalogPin(A7),
+	AnalogPin pins[2] = {
+		AnalogPin(A3),
+		AnalogPin(A8),
 	};
 
 	auto  greenLED = DigitalPin(8, OUTPUT);
-	auto  redLED = DigitalPin(7, OUTPUT);
+	auto  redLED = DigitalPin(9, OUTPUT);
+	greenLED.write(true);
+	delay(1000);
 	
 	while (true){
-		greenLED.write(true);
-		for (size_t i = 0; i < 4; i++) {
+		for (size_t i = 0; i < 1; i++) {
 			Serial.print(pins[i].read());
 			Serial.print(",");
 		}
-		Serial.print(pins[4].read());
+		Serial.print(pins[1].read());
 		Serial.println("");
 		delay(100);
 	}
