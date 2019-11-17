@@ -16,23 +16,20 @@ void setup() {
 }
 
 void loop() {
-	AnalogPin pins[2] = {
-		AnalogPin(A3),
-		AnalogPin(A8),
-	};
+    auto motorL = Motor(4, 5);
+    auto motorR = Motor(2, 3);
+    auto rotaryEncoder = RotaryEncoder(-1, -1); // これは決まり次第変える
 
-	auto  greenLED = DigitalPin(8, OUTPUT);
-	auto  redLED = DigitalPin(9, OUTPUT);
-	greenLED.write(true);
-	delay(1000);
-	
-	while (true){
-		for (size_t i = 0; i < 1; i++) {
-			Serial.print(pins[i].read());
-			Serial.print(",");
-		}
-		Serial.print(pins[1].read());
-		Serial.println("");
-		delay(100);
-	}
+    while (true){
+        while (rotaryEncoder.until(10)) {
+            motorL.write(120);
+            motorR.write(255);
+        }
+        delay(2000);
+        while (rotaryEncoder.until(10)) {
+            motorL.write(100);
+            motorR.write(100);
+        }
+        delay(2000);
+    }
 }

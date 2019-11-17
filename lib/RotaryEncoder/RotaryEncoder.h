@@ -9,7 +9,7 @@ private:
     PhotoReflector pht;
 
 public:
-    RotaryEncoder(int readerPin);
+    RotaryEncoder(int readerPin, int thresholdOfPht);
     bool until(int times);
     int getCurrentCount();
 };

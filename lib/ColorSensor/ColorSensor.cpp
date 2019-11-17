@@ -8,10 +8,12 @@
 #include "Arduino.h"
 
 ColorSensor::ColorSensor(int Rpin, int Gpin, int readerPin, const int (&thresholdsRG)[2]):
-redLED(Rpin, OUTPUT),
-greenLED(Gpin, OUTPUT),
-reader(readerPin)
-{}
+    redLED(Rpin, OUTPUT),
+    greenLED(Gpin, OUTPUT),
+    reader(readerPin){
+    for (size_t i = 0; i < 2; i++)
+        this->thresholds[i] = thresholdsRG[i];
+}
 
 
 bool ColorSensor::irradiateRed(){

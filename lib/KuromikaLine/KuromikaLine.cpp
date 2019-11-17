@@ -8,6 +8,7 @@ KuromikaLine::KuromikaLine(int greenPin, int readerPin, int threshold):
     greenLED(greenPin, OUTPUT),
     reader(readerPin){
     greenLED.write(true);
+    delay(1);
 }
 
 inline bool KuromikaLine::read(){

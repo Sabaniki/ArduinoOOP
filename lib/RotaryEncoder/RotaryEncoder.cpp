@@ -5,8 +5,8 @@
 #include "PhotoReflector.cpp"
 #include "Arduino.h"
 
-RotaryEncoder::RotaryEncoder(int readerPin):
-    pht(readerPin) {
+RotaryEncoder::RotaryEncoder(int readerPin, int thresholdOfPht):
+    pht(readerPin, thresholdOfPht) {
 
 }
 
