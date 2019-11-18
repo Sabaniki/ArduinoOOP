@@ -11,20 +11,26 @@
 #include "UltrasonicSensor.h"
 #include "RotaryEncoder.h"
 #include "RotaryEncoder.cpp"
+#define LINE_SENSOR_PIN_1 A3
+#define LINE_SENSOR_PIN_2 A5
+#define LINE_SENSOR_PIN_3 A1
+#define LINE_SENSOR_PIN_4 A7
+#define LINE_SENSOR_PIN_5 A9
+
 void setup() {
 	Serial.begin(9600);
 }
 
 void loop() {
 	AnalogPin pins[5] = {
-		AnalogPin(A2),
-		AnalogPin(A4),
-		AnalogPin(A5),
-		AnalogPin(A6),
-		AnalogPin(A7),
+		AnalogPin(LINE_SENSOR_PIN_1),
+		AnalogPin(LINE_SENSOR_PIN_2),
+		AnalogPin(LINE_SENSOR_PIN_3),
+		AnalogPin(LINE_SENSOR_PIN_4),
+		AnalogPin(LINE_SENSOR_PIN_5),
 	};
 
-	auto  greenLED = DigitalPin(8, OUTPUT);
+	auto  greenLED = DigitalPin(15, OUTPUT);
 	auto  redLED = DigitalPin(9, OUTPUT);
 	greenLED.write(true);
 	delay(1000);
