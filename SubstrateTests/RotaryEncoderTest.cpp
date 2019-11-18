@@ -27,13 +27,18 @@ void loop() {
 			Serial.print("currentCount 1: ");
 			Serial.println(rotaryEncoder.getCurrentCount());
         }
-        delay(2000);
+        motorL.write(0);
+        motorR.write(0);
+        delay(3000);
         while (rotaryEncoder.until(10)) {
             motorL.write(60);
             motorR.write(60);
 			Serial.print("currentCount 2: ");
 			Serial.println(rotaryEncoder.getCurrentCount());
         }
+        motorL.write(0);
+        motorR.write(0);
+        delay(3000);
         delay(2000);
     }
 }

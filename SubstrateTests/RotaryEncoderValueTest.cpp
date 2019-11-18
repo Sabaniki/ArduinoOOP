@@ -16,7 +16,7 @@ void setup() {
 }
 
 void loop() {
-    auto pht = PhotoReflector(A0);
+    auto pht = AnalogPin(A0);
     while (true){
         Serial.print("value: ");
         Serial.println(pht.read());

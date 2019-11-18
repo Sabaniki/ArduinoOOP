@@ -20,7 +20,7 @@ PhotoReflector::PhotoReflector(int pin, int threshold):
     isBlack(false),
     useAsDigital(false),
     threshold(threshold)
-     {
+    {
     readerPinD.~DigitalPin();
 }
 

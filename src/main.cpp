@@ -16,9 +16,29 @@ void setup() {
 }
 
 void loop() {
-    auto pht = PhotoReflector(-1);
+    auto motorL = Motor(3, 2);
+    auto motorR = Motor(4, 5);
+    auto rotaryEncoder = RotaryEncoder(A0, 990); // これは決まり次第変える
+
     while (true){
-        Serial.print("value: ");
-        Serial.println(pht.read());
+        while (rotaryEncoder.until(10)) {
+            motorL.write(60);
+            motorR.write(60);
+			Serial.print("currentCount 1: ");
+			Serial.println(rotaryEncoder.getCurrentCount());
+        }
+        motorL.write(0);
+        motorR.write(0);
+        delay(3000);
+        while (rotaryEncoder.until(10)) {
+            motorL.write(60);
+            motorR.write(60);
+			Serial.print("currentCount 2: ");
+			Serial.println(rotaryEncoder.getCurrentCount());
+        }
+        motorL.write(0);
+        motorR.write(0);
+        delay(3000);
+        delay(2000);
     }
 }
