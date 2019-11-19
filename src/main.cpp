@@ -18,10 +18,11 @@ void setup() {
 void loop() {
     auto motorL = Motor(3, 2);
     auto motorR = Motor(4, 5);
-    auto rotaryEncoder = RotaryEncoder(A0, 990); // これは決まり次第変える
+    auto rotaryEncoder = RotaryEncoder(A0, 1000); // これは決まり次第変える
+    delay(2000);
 
     while (true){
-        while (rotaryEncoder.until(10)) {
+        while (rotaryEncoder.until(19)) {
             motorL.write(60);
             motorR.write(60);
 			Serial.print("currentCount 1: ");
@@ -30,7 +31,7 @@ void loop() {
         motorL.write(0);
         motorR.write(0);
         delay(3000);
-        while (rotaryEncoder.until(10)) {
+        while (rotaryEncoder.until(19)) {
             motorL.write(60);
             motorR.write(60);
 			Serial.print("currentCount 2: ");
