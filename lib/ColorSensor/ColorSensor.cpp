@@ -6,7 +6,7 @@
 ColorSensor::ColorSensor(int Rpin, int Gpin, int Bpin, int readerPin, const int (&thresholdsRGB)[3][3]): 
 light(Rpin, Gpin, Bpin),
 reader(readerPin) {
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 3; i++)
         for (int j = 0; j < 3; j++)
             thresholds[i][j] = thresholdsRGB[i][j];
         
