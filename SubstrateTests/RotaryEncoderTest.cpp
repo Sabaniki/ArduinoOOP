@@ -17,29 +17,51 @@ void setup() {
 
 void loop() {
     auto motorL = Motor(3, 2);
-    auto motorR = Motor(4, 5);
-    auto rotaryEncoder = RotaryEncoder(A0, 940); // これは決まり次第変える
-    delay(2000);
+    auto motorR = Motor(5, 4);
+    RotaryEncoder rotaryEncoders[] = {
+        RotaryEncoder(A0, 950),
+        RotaryEncoder(A1, 980)
+    };
 
-    while (true){
-        while (rotaryEncoder.until(9)) {
-            motorL.write(60);
-            motorR.write(60);
-			Serial.print("currentCount 1: ");
-			Serial.println(rotaryEncoder.getCurrentCount());
+    const int distance = 19;
+    const int speed = 100;
+
+    int leftPower = 0, rightPower = 0;
+    const int L = 0, R = 1;
+    bool state[2] = {true, true};
+
+    delay(3000);
+    while (state[L] || state[R]){
+        Serial.print("current L: ");
+        Serial.println(rotaryEncoders[0].getCurrentCount());
+        Serial.println();
+        
+        Serial.print("current R: ");
+        Serial.println(rotaryEncoders[1].getCurrentCount());
+        Serial.println();
+
+        for (int i = 0; i < 2; i++)
+            if (state[i])
+                state[i] = rotaryEncoders[i].until(distance);
+        if (state[L])
+            leftPower = speed;
+        else
+        {
+            state[L] = false;
+            leftPower = 0;
         }
-        motorL.write(0);
-        motorR.write(0);
-        delay(3000);
-        while (rotaryEncoder.until(9)) {
-            motorL.write(60);
-            motorR.write(60);
-			Serial.print("currentCount 2: ");
-			Serial.println(rotaryEncoder.getCurrentCount());
+        if (state[R])
+            rightPower = speed;
+        else
+        {
+            state[R] = false;
+            rightPower = 0;
         }
-        motorL.write(0);
-        motorR.write(0);
-        delay(3000);
-        delay(2000);
+        motorL.write(leftPower);
+        motorR.write(rightPower);
     }
+    motorL.write(0);
+    motorR.write(0);
+
+    while (true);
 }

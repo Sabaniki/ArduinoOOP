@@ -11,6 +11,9 @@
 #include "UltrasonicSensor.h"
 #include "RotaryEncoder.h"
 #include "RotaryEncoder.cpp"
+#include "Server.h"
+#include "UltrasonicSensor.h"
+#include "UltrasonicSensor.cpp"
 void setup() {
 	Serial.begin(9600);
 }

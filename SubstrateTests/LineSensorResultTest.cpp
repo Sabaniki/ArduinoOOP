@@ -18,13 +18,12 @@ void setup() {
 }
 
 void loop() {
-	int threshold = 750;
-	KuromikaLine lineSensors[5] = {
-		KuromikaLine(8, A2, threshold),
-		KuromikaLine(8, A4, threshold),
-		KuromikaLine(8, A5, threshold),
-		KuromikaLine(8, A6, threshold),
-		KuromikaLine(8, A7, threshold),
+	PhotoReflector lineSensors[5] = {
+		PhotoReflector(A7),
+		PhotoReflector(A6),
+		PhotoReflector(A5),
+		PhotoReflector(A4),
+		PhotoReflector(A3),
 	};
 	
 	while (true){
