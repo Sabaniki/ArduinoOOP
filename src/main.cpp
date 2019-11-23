@@ -17,42 +17,27 @@ void setup() {
 }
 
 const int thresholdsOfRGB[3][3] = {
-    { 27, 65, 47 },  //G
-    { 80, 127, 92 },  //W
-    { 30, 58, 44 },  //B
+    { 214, 298, 252 },  //G
+    { 298, 299, 298 },  //W
+    { 114, 216, 120 },  //B
 };
 
 void loop() {
-    auto colorSensorL = ColorSensor(15, 14, 8, A8, thresholdsOfRGB);
-    auto colorSensorR = ColorSensor(15, 14, 8, A9, thresholdsOfRGB);
+    auto colorSensor = ColorSensor(10, 9, 8, A0, thresholdsOfRGB);
     while (true){
-        Serial.print("RedValue L: ");
-        Serial.println(colorSensorL.readValueRed());
+        Serial.println(colorSensor.read());
+        delay(100);
+        Serial.print("RedValue: ");
+        Serial.println(colorSensor.readValueRed());
         delay(100);
 
-        Serial.print("GreenValue L: ");
-        Serial.println(colorSensorL.readValueGreen());
+        Serial.print("GreenValue: ");
+        Serial.println(colorSensor.readValueGreen());
         delay(100);
 
-        Serial.print("BlueValue L: ");
-        Serial.println(colorSensorL.readValueBlue());
-        
-        Serial.println();
-
-        Serial.print("RedValue R: ");
-        Serial.println(colorSensorR.readValueRed());
+        Serial.print("BlueValue: ");
+        Serial.println(colorSensor.readValueBlue());
         delay(100);
-
-        Serial.print("GreenValue R: ");
-        Serial.println(colorSensorR.readValueGreen());
-        delay(100);
-
-        Serial.print("BlueValue R: ");
-        Serial.println(colorSensorR.readValueBlue());
-        delay(100);
-        Serial.println();
-        Serial.print(colorSensorL.read());
-        Serial.println(colorSensorR.read());
         Serial.println();
     }
 }
