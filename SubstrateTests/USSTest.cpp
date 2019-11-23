@@ -19,16 +19,12 @@ void setup() {
 }
 
 void loop() {
-    DigitalPin switches[2] = {
-        DigitalPin(29, INPUT_PULLUP), 
-        DigitalPin(45, INPUT_PULLUP) 
+    UltrasonicSensor uccSensors[2] = {
+        UltrasonicSensor(12, 13),
+        UltrasonicSensor(10, 11),
     };
     while (true){
-        Serial.print("switch 0: ");
-        Serial.println(switches[0].read());
-        //Serial.print("switch 1: ");
-        //Serial.println(switches[1].read());
-        Serial.println();
-        delay(1);
+        for(int i = 0; i < 2; i++) Serial.println(uccSensors[2].readDistance());
     }
+    
 }

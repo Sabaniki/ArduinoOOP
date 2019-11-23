@@ -60,6 +60,7 @@ char ColorSensor::read(){
     readValue[0] = readValueRed();
     readValue[1] = readValueGreen();
     readValue[2] = readValueBlue();
+    // Serial.println("values");
 
     int tmp = 0, loopCount = 0;
 
@@ -69,7 +70,7 @@ char ColorSensor::read(){
 
     for(int i = 0; i  < colorNum; i++)
         for(int j = 0; j < 3; j++)
-            mined[i][j] = abs(mined[i][j]);
+            mined[i][j] *= mined[i][j];
     for(int i = 0; i  < colorNum; i++)
         colorArray[i] = mined[i][0] + mined[i][1] + mined[i][2];
 
