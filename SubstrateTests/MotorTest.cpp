@@ -20,21 +20,8 @@ void loop() {
     auto motorR = Motor(3, 2);
 
     while (true){
-        motorL.write(255);
-        motorR.write(255);
-        delay(1000);
-
-        motorL.write(255);
-        motorR.write(-255);
-        delay(1000);
-
-        motorL.write(-255);
-        motorR.write(255);
-        delay(1000);
-
-        motorL.write(0);
-        motorR.write(0);
-        delay(1000);
+        motorL.write(130);
+        motorR.write(130 * 2.0);
     }
     
 }

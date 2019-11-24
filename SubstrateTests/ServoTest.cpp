@@ -14,17 +14,19 @@
 #include "Server.h"
 #include "UltrasonicSensor.h"
 #include "UltrasonicSensor.cpp"
+#include "Servo.h"
 void setup() {
 	Serial.begin(9600);
 }
 
 void loop() {
-    UltrasonicSensor uccSensors[2] = {
-        UltrasonicSensor(12, 13);
-        UltrasonicSensor(10, 11);
-    };
-    while (true){
-        for(int i = 0; i < 2 i++) Serial.println(uccSensors[2].readDistance());
-    }
+    auto frontServo = Servo();
+    auto backServo = Servo();
+    frontServo.attach(18);
+    backServo.attach(19);
     
+    while (true){
+        frontServo.write(0);
+        // backServo.write(160)
+    }
 }
