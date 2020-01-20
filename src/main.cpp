@@ -11,34 +11,30 @@
 #include "UltrasonicSensor.h"
 #include "RotaryEncoder.h"
 #include "RotaryEncoder.cpp"
+
+  DigitalPin switchPins[8] = {
+      DigitalPin(18, INPUT_PULLUP), DigitalPin(28, INPUT_PULLUP),
+      DigitalPin(32, INPUT_PULLUP), DigitalPin(36, INPUT_PULLUP),
+      DigitalPin(40, INPUT_PULLUP), DigitalPin(44, INPUT_PULLUP),
+      DigitalPin(49, INPUT_PULLUP), DigitalPin(52, INPUT_PULLUP)
+  };
+  DigitalPin LEDPins[8] = {
+      DigitalPin(19, OUTPUT), DigitalPin(26, OUTPUT), 
+      DigitalPin(30, OUTPUT), DigitalPin(34, OUTPUT),
+      DigitalPin(38, OUTPUT), DigitalPin(42, OUTPUT),
+      DigitalPin(47, OUTPUT), DigitalPin(50, OUTPUT)
+  };
+
 void setup() {
 	Serial.begin(9600);
+    for (size_t i = 0; i < 8; i++) {
+      LEDPins[i].write(LOW);
+    }
 }
 
 void loop() {
-    auto motorL = Motor(2, 3);
-    auto motorR = Motor(5, 4);
-
-    while (true){
-        // motorL.write(100);
-        // motorR.write(100);
-        // delay(1000);
-
-        motorL.write(100);
-        motorR.write(-100);
-        delay(1000);
-
-        motorL.write(-100);
-        motorR.write(100);
-        delay(1000);
-
-        // motorL.write(-100);
-        // motorR.write(-100);
-        // delay(1000);
-
-        motorL.write(0);
-        motorR.write(0);
-        delay(1000);
-    }
-    
+  while (true) {
+    for (size_t i = 0; i < 8; i++)
+      LEDPins[i].write(switchPins[i].read());
+  }
 }
