@@ -12,36 +12,16 @@
 // #include "RotaryEncoder.h"
 // #include "RotaryEncoder.cpp"
 void setup() {
-	Serial.begin(9600);
+	// Serial.begin(9600);
 }
 
 void loop() {
-    auto motorL = Motor(10, 11);
-    auto motorR = Motor(12, 13);
-    auto start = DigitalPin(28, INPUT);
+  auto digital = DigitalPin(8, OUTPUT);
+  while (true) {
+    digital.write(HIGH);
+    delay(5000);
 
-    while (true){
-      while (!start.read())
-        ;
-
-      Serial.println("straight");
-      motorL.write(255);
-      motorR.write(255);
-      delay(3000);
-
-      Serial.println("left");
-      motorL.write(-255);
-      motorR.write(255);
-      delay(3000);
-
-      Serial.println("right");
-      motorL.write(255);
-      motorR.write(-255);
-      delay(3000);
-
-      Serial.println("back");
-      motorL.write(-255);
-      motorR.write(-255);
-      delay(3000);
-    }
+    digital.write(LOW);
+    delay(1000);
+  }
 }
