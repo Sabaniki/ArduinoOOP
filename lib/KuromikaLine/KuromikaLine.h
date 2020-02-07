@@ -1,9 +1,10 @@
-#ifndef ___Class_KuromikaLine
-#define ___Class_KuromikaLine
+#pragma once
+#include "KuromikaLine.h"
+#include "Arduino.h"
 #include "AnalogPin.h"
-#include "AnalogPin.cpp"
+// #include "AnalogPin.cpp"
 #include "DigitalPin.h"
-#include "DigitalPin.cpp"
+// #include "DigitalPin.cpp"
 class KuromikaLine {
 private:
 private:
@@ -19,4 +20,3 @@ public:
     void setNumOfIteration(int numOfIteration);
 };
 
-#endif

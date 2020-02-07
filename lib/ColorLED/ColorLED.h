@@ -1,5 +1,4 @@
-#ifndef ___Class_ColorLED
-#define ___Class_ColorLED
+#pragma once
 #include "Arduino.h"
 #include "DigitalPin.h"
 #include "DigitalPin.cpp"
@@ -12,6 +11,17 @@ public:
     void writeRed(bool mode);
     void writeGreen(bool mode);
     void writeBlue(bool mode);
+
+    void writeRed(bool mode){
+        red.write(mode);
+    }
+
+    void writeGreen(bool mode){
+        green.write(mode);
+    }
+
+    void writeBlue(bool mode){
+        blue.write(mode);
+    }
 };
 
-#endif

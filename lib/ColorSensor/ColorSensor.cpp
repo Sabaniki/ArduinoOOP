@@ -1,7 +1,7 @@
 #ifndef ___Cpp_ColorSensor
 #define ___Cpp_ColorSensor
 #include "ColorSensor.h"
-#include "Arduino.h"
+// #include "Arduino.h"
 
 ColorSensor::ColorSensor(int Rpin, int Gpin, int Bpin, int readerPin, const int (&thresholdsRGB)[3][3]): 
 light(Rpin, Gpin, Bpin),

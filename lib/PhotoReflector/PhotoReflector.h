@@ -1,9 +1,12 @@
-#ifndef ___Class_PhtoReflector
-#define ___Class_PhtoReflector
+#pragma once
+#include "PhotoReflector.h"
+// #include "DigitalPin.h"
+// #include "DigitalPin.cpp"
+#include "Arduino.h"
 #include "DigitalPin.h"
-#include "DigitalPin.cpp"
+// #include "DigitalPin.cpp"
 #include "AnalogPin.h"
-#include "AnalogPin.cpp"
+// #include "AnalogPin.cpp"
 class PhotoReflector{
 private:
     DigitalPin readerPinD;
@@ -18,4 +21,3 @@ public:
     bool getIsBlack();  // 前回のdigitalRead結果を返す
 };
 
-#endif

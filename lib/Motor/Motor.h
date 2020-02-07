@@ -1,7 +1,8 @@
-#ifndef ___Class_Motor
-#define ___Class_Motor
+#pragma once
 #include "AnalogPin.h"
-#include "AnalogPin.cpp"
+// #include "AnalogPin.cpp"
+#include "Motor.h"
+#include "Arduino.h"
 class Motor {
 private:
     void stop();
@@ -13,4 +14,3 @@ public:
     void write(int speed);
 };
 
-#endif

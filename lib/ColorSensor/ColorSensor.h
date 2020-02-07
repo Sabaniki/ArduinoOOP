@@ -1,7 +1,6 @@
-#ifndef ___Class_ColorSensor
-#define ___Class_ColorSensor
+#pragma once
 #include "ColorLED.h"
-#include "ColorLED.cpp"
+// #include "ColorLED.cpp"
 #include "AnalogPin.h"
 class ColorSensor {
 private:
@@ -25,5 +24,3 @@ public:
     int readValueBlue();
     char read();
 };
-
-#endif

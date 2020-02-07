@@ -1,9 +1,9 @@
 #ifndef ___Cpp_PhtoReflector
 #define ___Cpp_PhtoReflector
 #include "PhotoReflector.h"
-#include "DigitalPin.h"
-#include "DigitalPin.cpp"
-#include "Arduino.h"
+// #include "DigitalPin.h"
+// #include "DigitalPin.cpp"
+// #include "Arduino.h"
 
 PhotoReflector::PhotoReflector(int pin):
     readerPinD(pin, INPUT_PULLUP),

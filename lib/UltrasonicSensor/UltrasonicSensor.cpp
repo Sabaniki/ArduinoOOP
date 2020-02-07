@@ -1,7 +1,7 @@
 #ifndef ___Cpp_UltrasonicSensor
 #define ___Cpp_UltrasonicSensor
 #include "UltrasonicSensor.h"
-#include "Arduino.h"
+// #include "Arduino.h"
 
 UltrasonicSensor::UltrasonicSensor(int triggerPin, int echoPin): 
 echoPin(echoPin),

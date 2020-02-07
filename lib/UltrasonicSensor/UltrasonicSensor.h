@@ -1,7 +1,8 @@
-#ifndef ___Class_UltrasonicSensor
-#define ___Class_UltrasonicSensor
+#pragma once
+#include "UltrasonicSensor.h"
+#include "Arduino.h"
 #include "DigitalPin.h"
-#include "DigitalPin.cpp"
+// #include "DigitalPin.cpp"
 class UltrasonicSensor {
 private:
     int echoPin, readTime, dis;
@@ -13,4 +14,3 @@ public:
     double readDistance();
 };
 
-#endif

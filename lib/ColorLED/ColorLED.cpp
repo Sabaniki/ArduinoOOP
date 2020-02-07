@@ -8,15 +8,5 @@ ColorLED::ColorLED(int redPin, int greenPin, int bluePin):
 
 }
 
-inline void ColorLED::writeRed(bool mode){
-    red.write(mode);
-}
 
-inline void ColorLED::writeGreen(bool mode){
-    green.write(mode);
-}
-
-inline void ColorLED::writeBlue(bool mode){
-    blue.write(mode);
-}
 #endif
