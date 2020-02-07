@@ -10,10 +10,11 @@ void func() {
 }
 
 void loop() {
-    Timer timer = Timer(10, &func);
+    Timer timer = Timer(5000, &func);
     timer.start();
-    while (true) {
+    while (!timer.getIsReached()) {
+        Serial.println(timer.readTime());
         timer.update();
     }
-    
+    while (true);
 }

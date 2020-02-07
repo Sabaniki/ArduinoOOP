@@ -12,6 +12,9 @@ void func() {
 void loop() {
     Timer timer = Timer(5000, &func);
     timer.start();
-    while (!timer.update());
-	while(true);
+    while (!timer.getIsReached()) {
+        Serial.println(timer.readTime());
+        timer.update();
+    }
+    while (true);
 }
