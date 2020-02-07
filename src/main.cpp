@@ -1,27 +1,18 @@
 #define DEBUG
-#include <Arduino.h>
-// #include "AnalogPin.h"
-#include "DigitalPin.h"
-// #include "DigitalPin.cpp"
-// #include "ColorLED.h"
-// #include "ColorSensor.h"
-#include "Motor.h"
-// #include "Motor.cpp"
-// #include "PhotoReflector.h"
-// #include "UltrasonicSensor.h"
-// #include "RotaryEncoder.h"
-// #include "RotaryEncoder.cpp"
+#include "Timer.h"
+#include "Arduino.h"
 void setup() {
-	// Serial.begin(9600);
+	Serial.begin(9600);
+}
+
+void func() {
+	Serial.println("on func"); 
 }
 
 void loop() {
-  auto digital = DigitalPin(8, OUTPUT);
-  while (true) {
-    digital.write(HIGH);
-    delay(5000);
-
-    digital.write(LOW);
-    delay(1000);
-  }
+	Timer timer = Timer(&func);
+	while (true) {
+        timer.invokeCallback();
+        delay(1000);
+    }
 }

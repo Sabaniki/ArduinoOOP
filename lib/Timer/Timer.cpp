@@ -3,7 +3,10 @@
 #include "Timer.h"
 #include "Arduino.h"
 
-Timer::Timer() {
-
+Timer::Timer(CallbackFunction funcRef) {
+    callback = funcRef; 
 }
+
+void Timer::invokeCallback() { callback(); }
+
 #endif
