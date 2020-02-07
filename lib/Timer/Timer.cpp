@@ -2,10 +2,10 @@
 #define ___Cpp_Timer
 #include "Timer.h"
 
-Timer::Timer(unsigned long targetTime, CallbackFunction funcRef, bool allowOverrun):
+Timer::Timer(unsigned long targetTime, bool allowOverrun , CallbackFunction funcRef):
 targetTime(targetTime),
-callback(funcRef),
 allowOverrun(allowOverrun),
+callback(funcRef),
 isReached(false),
 isFirst(true){
     // this->targetTime = targetTime;

@@ -5,17 +5,13 @@ void setup() {
 	Serial.begin(9600);
 }
 
-void func1() {
-    Serial.println("on func1"); 
-}
-
-void func2() { 
-    Serial.println("on func2");
-}
-
 void loop() {
-    auto timer1 = Timer(5000, &func1, false);
-    auto timer2 = Timer(7000, &func2, false);
+    auto timer1 = Timer(5000, false, [](){
+        Serial.println("on timer1's non-named callback!");
+    });
+    auto timer2 = Timer(7000, false, [](){
+        Serial.println("on timer2's non-named callback!");
+    });
     timer1.start();
     timer2.start();
     while (timer1.getIsUnreached() || timer2.getIsUnreached()) {

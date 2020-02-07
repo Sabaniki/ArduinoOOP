@@ -7,15 +7,15 @@ class Timer {
 private:
     unsigned long startTime;
     unsigned long targetTime;
-    CallbackFunction callback;
     bool allowOverrun;
+    CallbackFunction callback;
     bool isReached;
     bool isFirst;
 
 
 public:
-    // targetTime: 目標値（ミリ秒）, funcRef: 目標時間が来たときに実行する関数, allowOverrun: オーバーランの許可
-    Timer(unsigned long targetTime, CallbackFunction funcRef, bool allowOverrun);
+    // targetTime: 目標値（ミリ秒）, allowOverrun: オーバーランの許可, funcRef: 目標時間が来たときに実行する関数
+    Timer(unsigned long targetTime, bool allowOverrun , CallbackFunction funcRef);
 
     // タイマーの開始
     void start();
