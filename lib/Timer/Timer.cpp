@@ -1,12 +1,22 @@
 #ifndef ___Cpp_Timer
 #define ___Cpp_Timer
 #include "Timer.h"
-#include "Arduino.h"
 
-Timer::Timer(CallbackFunction funcRef) {
-    callback = funcRef; 
+Timer::Timer(unsigned long targetTime, CallbackFunction funcRef) {
+    this->targetTime = targetTime;
+    this->callback = funcRef;
 }
 
-void Timer::invokeCallback() { callback(); }
+void Timer::start() {
+	this->startTime = millis(); 
+}
+
+bool Timer::update(){
+	if((startTime + targetTime) == millis()){
+        callback();
+		return true;
+    }
+        return false;
+}
 
 #endif

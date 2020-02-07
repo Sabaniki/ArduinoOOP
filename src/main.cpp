@@ -6,13 +6,12 @@ void setup() {
 }
 
 void func() {
-	Serial.println("on func"); 
+    Serial.println("on func"); 
 }
 
 void loop() {
-	Timer timer = Timer(&func);
-	while (true) {
-        timer.invokeCallback();
-        delay(1000);
-    }
+    Timer timer = Timer(5000, &func);
+    timer.start();
+    while (!timer.update());
+	while(true);
 }

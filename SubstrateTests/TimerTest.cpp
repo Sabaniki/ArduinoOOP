@@ -10,5 +10,10 @@ void func() {
 }
 
 void loop() {
-    Timer timer = Timer(&func);
+    Timer timer = Timer(10, &func);
+    timer.start();
+    while (true) {
+        timer.update();
+    }
+    
 }
