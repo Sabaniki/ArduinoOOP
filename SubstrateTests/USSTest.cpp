@@ -24,7 +24,12 @@ void loop() {
         UltrasonicSensor(10, 11),
     };
     while (true){
-        for(int i = 0; i < 2; i++) Serial.println(uccSensors[2].readDistance());
+        for(int i = 0; i < 2; i++) {
+            Serial.print(i);
+            Serial.println(": ");
+            Serial.print(uccSensors[2].readDistance());
+            Serial.println("cm");
+        }
+        Serial.println();
     }
-    
 }
