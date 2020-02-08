@@ -1,10 +1,8 @@
 #pragma once
 #include "RotaryEncoder.h"
-// #include "PhotoReflector.h"
-// #include "PhotoReflector.cpp"
 #include "Arduino.h"
 #include "PhotoReflector.h"
-// #include "PhotoReflector.cpp"
+
 class RotaryEncoder {
 private:
     int currentCount = 0;

@@ -2,9 +2,7 @@
 #include "KuromikaLine.h"
 #include "Arduino.h"
 #include "AnalogPin.h"
-// #include "AnalogPin.cpp"
 #include "DigitalPin.h"
-// #include "DigitalPin.cpp"
 class KuromikaLine {
 private:
 private:

@@ -1,15 +1,11 @@
-#ifndef ___Cpp_Timer
-#define ___Cpp_Timer
 #include "Timer.h"
 
 Timer::Timer(unsigned long targetTime, bool allowOverrun , CallbackFunction funcRef):
-targetTime(targetTime),
-allowOverrun(allowOverrun),
-callback(funcRef),
-isReached(false),
-isFirst(true){
-    // this->targetTime = targetTime;
-    // this->callback = funcRef;
+    targetTime(targetTime),
+    allowOverrun(allowOverrun),
+    callback(funcRef),
+    isReached(false),
+    isFirst(true){
 }
 
 void Timer::start() {
@@ -29,6 +25,5 @@ bool Timer::update(){
         callback();
         return Timer::getIsUnreached();
     }
+    return Timer::getIsUnreached();
 }
-
-#endif

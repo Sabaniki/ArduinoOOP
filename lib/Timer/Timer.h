@@ -1,5 +1,4 @@
-#ifndef ___Class_Timer
-#define ___Class_Timer
+#pragma once
 #include "Arduino.h"
 using CallbackFunction = void (*)();
 
@@ -31,5 +30,3 @@ public:
 
     unsigned long readTime() { return (millis() - startTime); }
 };
-
-#endif

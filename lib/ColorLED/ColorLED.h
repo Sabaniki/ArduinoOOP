@@ -1,7 +1,6 @@
 #pragma once
 #include "Arduino.h"
 #include "DigitalPin.h"
-#include "DigitalPin.cpp"
 class ColorLED {
 private:
     DigitalPin red, green, blue;

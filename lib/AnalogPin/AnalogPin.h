@@ -9,10 +9,6 @@ public:
     AnalogPin(const int pin);
     AnalogPin(const int pin, int offset);
     AnalogPin();
-    // int read();
-    // void write(const int power);
-    // void initPin(int pin);
-    // int getPinNum();
 
     int read() {
         return useOffset? (analogRead(pin) - offset): analogRead(pin);
