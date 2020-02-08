@@ -16,17 +16,18 @@ void Timer::start() {
 	this->startTime = millis(); 
 }
 
-void Timer::update(){
+bool Timer::update(){
     unsigned long now = startTime + targetTime;
-    if(now > millis()) return;
+    if(now > millis()) return Timer::getIsUnreached();
 	if(now == millis() && isFirst){
         callback();
         this->isReached = true;
         this->isFirst = false;
-        return;
+        return Timer::getIsUnreached();
     }
     if (this->allowOverrun) {
         callback();
+        return Timer::getIsUnreached();
     }
 }
 

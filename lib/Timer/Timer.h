@@ -21,7 +21,7 @@ public:
     void start();
 
     // 更新処理 時間に達していた場合callbackを実行
-    void update();
+    bool update();
 
     // 目標時刻に達しているかどうかを返す
     bool getIsReached() { return this->isReached; }
