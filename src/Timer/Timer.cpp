@@ -5,7 +5,8 @@ Timer::Timer(unsigned long targetTime, bool allowOverrun , CallbackFunction func
     allowOverrun(allowOverrun),
     callback(funcRef),
     isReached(false),
-    isFirst(true){
+    isFirst(true),
+    startTime(0UL){
 }
 
 void Timer::start() {
@@ -13,10 +14,10 @@ void Timer::start() {
 }
 
 unsigned long Timer::createTime(int hour, int min, int sec, int msec) {
-    unsigned long time = 0;
-    time += hour * 60 * 60 * 1000;
-    time += min * 60 * 1000;
-    time += sec * 1000;
+    unsigned long time = 0UL;
+    time += hour * 60 * 60 * 1000UL;
+    time += min * 60 * 1000UL;
+    time += sec * 1000UL;
     time += msec;
     return time;
 }
