@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ArduinoOOP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArduinoOOP">
+				<Option output="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/ArduinoOOP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/include"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/mega"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin"/>
+					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Users/sabac/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 ArduinoOOP"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArduinoOOP/fast">
+				<Option output="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/ArduinoOOP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/include"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/mega"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin"/>
+					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Users/sabac/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 ArduinoOOP/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_BUILD">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_DEVICE_LIST">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_DEVICE_LIST"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_REBUILD_PROJECT_INDEX">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_PROGRAM">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPDATE_ALL">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOADFS">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_TEST">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOAD">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_CLEAN">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_BUILD_VERBOSE">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_VERBOSE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_MONITOR">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 PLATFORMIO_MONITOR"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/.DS_Store">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/.pio/.piopkgmanager.json">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/.pio/.piopkgmanager.json">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/.DS_Store">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin/AnalogPin.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin/AnalogPin.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED/ColorLED.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED/ColorLED.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor/ColorSensor.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor/ColorSensor.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin/DigitalPin.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin/DigitalPin.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine/KuromikaLine.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine/KuromikaLine.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor/Motor.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor/Motor.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector/PhotoReflector.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector/PhotoReflector.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder/RotaryEncoder.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder/RotaryEncoder.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer/Timer.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer/Timer.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor/UltrasonicSensor.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor/UltrasonicSensor.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/main.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

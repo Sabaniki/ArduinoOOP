@@ -1,0 +1,14 @@
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/edit_cache.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/ArduinoOOP.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/rebuild_cache.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_BUILD.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_PROGRAM.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_UPLOADFS.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_TEST.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_UPLOAD.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_CLEAN.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir
+/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles/PLATFORMIO_MONITOR.dir
