@@ -57,165 +57,295 @@ include CMakeFiles/ArduinoOOP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ArduinoOOP.dir/flags.make
 
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o: ../.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp
+CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.o: ../src/AnalogPin/AnalogPin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/AnalogPin/AnalogPin.cpp
 
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp > CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/AnalogPin/AnalogPin.cpp > CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp -o CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/AnalogPin/AnalogPin.cpp -o CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o: ../.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp
+CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.o: ../src/ColorLED/ColorLED.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorLED/ColorLED.cpp
 
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp > CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorLED/ColorLED.cpp > CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp -o CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorLED/ColorLED.cpp -o CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.o: ../lib/AnalogPin/AnalogPin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin/AnalogPin.cpp
+CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.o: ../src/ColorSensor/ColorSensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorSensor/ColorSensor.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin/AnalogPin.cpp > CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorSensor/ColorSensor.cpp > CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin/AnalogPin.cpp -o CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorSensor/ColorSensor.cpp -o CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.o: ../lib/ColorLED/ColorLED.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED/ColorLED.cpp
+CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.o: ../src/DigitalPin/DigitalPin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/DigitalPin/DigitalPin.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED/ColorLED.cpp > CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/DigitalPin/DigitalPin.cpp > CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED/ColorLED.cpp -o CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/DigitalPin/DigitalPin.cpp -o CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.o: ../lib/ColorSensor/ColorSensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor/ColorSensor.cpp
+CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.o: ../src/KuromikaLine/KuromikaLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/KuromikaLine/KuromikaLine.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor/ColorSensor.cpp > CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/KuromikaLine/KuromikaLine.cpp > CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor/ColorSensor.cpp -o CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/KuromikaLine/KuromikaLine.cpp -o CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.o: ../lib/DigitalPin/DigitalPin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin/DigitalPin.cpp
+CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.o: ../src/Motor/Motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Motor/Motor.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin/DigitalPin.cpp > CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Motor/Motor.cpp > CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin/DigitalPin.cpp -o CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Motor/Motor.cpp -o CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.o: ../lib/KuromikaLine/KuromikaLine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine/KuromikaLine.cpp
+CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.o: ../src/PhotoReflector/PhotoReflector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/PhotoReflector/PhotoReflector.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine/KuromikaLine.cpp > CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/PhotoReflector/PhotoReflector.cpp > CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine/KuromikaLine.cpp -o CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/PhotoReflector/PhotoReflector.cpp -o CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.o: ../lib/Motor/Motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor/Motor.cpp
+CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.o: ../src/RotaryEncoder/RotaryEncoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/RotaryEncoder/RotaryEncoder.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor/Motor.cpp > CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/RotaryEncoder/RotaryEncoder.cpp > CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor/Motor.cpp -o CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/RotaryEncoder/RotaryEncoder.cpp -o CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.o: ../lib/PhotoReflector/PhotoReflector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector/PhotoReflector.cpp
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.o: ../src/SubstrateTests/ColorSensorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ColorSensorTest.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector/PhotoReflector.cpp > CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ColorSensorTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector/PhotoReflector.cpp -o CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ColorSensorTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.o: ../lib/RotaryEncoder/RotaryEncoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder/RotaryEncoder.cpp
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.o: ../src/SubstrateTests/GyroTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/GyroTest.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder/RotaryEncoder.cpp > CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/GyroTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder/RotaryEncoder.cpp -o CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/GyroTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.o: ../lib/Timer/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer/Timer.cpp
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.o: ../src/SubstrateTests/LineSensorResultTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorResultTest.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer/Timer.cpp > CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorResultTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer/Timer.cpp -o CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorResultTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.s
 
-CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
-CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.o: ../lib/UltrasonicSensor/UltrasonicSensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.o"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor/UltrasonicSensor.cpp
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.o: ../src/SubstrateTests/LineSensorValueTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorValueTest.cpp
 
-CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.i"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor/UltrasonicSensor.cpp > CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.i
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorValueTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.i
 
-CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.s"
-	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor/UltrasonicSensor.cpp -o CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.s
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorValueTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.o: ../src/SubstrateTests/MotorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/MotorTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/MotorTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/MotorTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.o: ../src/SubstrateTests/PhotoReflectorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/PhotoReflectorTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/PhotoReflectorTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/PhotoReflectorTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.o: ../src/SubstrateTests/RotaryEncoderTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.o: ../src/SubstrateTests/RotaryEncoderValueTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderValueTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderValueTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderValueTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.o: ../src/SubstrateTests/ServoTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ServoTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ServoTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ServoTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.o: ../src/SubstrateTests/SwitchTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/SwitchTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/SwitchTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/SwitchTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.o: ../src/SubstrateTests/TimerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/TimerTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/TimerTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/TimerTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.o: ../src/SubstrateTests/USSTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/USSTest.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/USSTest.cpp > CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/USSTest.cpp -o CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.o: ../src/Timer/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Timer/Timer.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Timer/Timer.cpp > CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Timer/Timer.cpp -o CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.s
+
+CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
+CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.o: ../src/UltrasonicSensor/UltrasonicSensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.o"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/UltrasonicSensor/UltrasonicSensor.cpp
+
+CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.i"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/UltrasonicSensor/UltrasonicSensor.cpp > CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.i
+
+CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.s"
+	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/UltrasonicSensor/UltrasonicSensor.cpp -o CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.s
 
 CMakeFiles/ArduinoOOP.dir/src/main.cpp.o: CMakeFiles/ArduinoOOP.dir/flags.make
 CMakeFiles/ArduinoOOP.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ArduinoOOP.dir/src/main.cpp.o"
 	/Users/sabac/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArduinoOOP.dir/src/main.cpp.o -c /Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/main.cpp
 
 CMakeFiles/ArduinoOOP.dir/src/main.cpp.i: cmake_force
@@ -228,39 +358,59 @@ CMakeFiles/ArduinoOOP.dir/src/main.cpp.s: cmake_force
 
 # Object files for target ArduinoOOP
 ArduinoOOP_OBJECTS = \
-"CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.o" \
-"CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.o" \
+"CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.o" \
 "CMakeFiles/ArduinoOOP.dir/src/main.cpp.o"
 
 # External object files for target ArduinoOOP
 ArduinoOOP_EXTERNAL_OBJECTS =
 
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.o
-ArduinoOOP: CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.o
+ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.o
 ArduinoOOP: CMakeFiles/ArduinoOOP.dir/src/main.cpp.o
 ArduinoOOP: CMakeFiles/ArduinoOOP.dir/build.make
 ArduinoOOP: CMakeFiles/ArduinoOOP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ArduinoOOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sabac/MyPrograms/Arduino/ArduinoOOP/cmake-build-megaatmega2560/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable ArduinoOOP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ArduinoOOP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

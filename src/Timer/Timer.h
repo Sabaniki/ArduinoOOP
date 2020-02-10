@@ -13,6 +13,7 @@ private:
 
 
 public:
+    static unsigned long createTime(int hour, int min, int sec, int msec);
     // targetTime: 目標値（ミリ秒）, allowOverrun: オーバーランの許可, funcRef: 目標時間が来たときに実行する関数
     Timer(unsigned long targetTime, bool allowOverrun , CallbackFunction funcRef);
 

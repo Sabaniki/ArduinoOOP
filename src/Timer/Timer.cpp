@@ -12,6 +12,15 @@ void Timer::start() {
 	this->startTime = millis(); 
 }
 
+unsigned long Timer::createTime(int hour, int min, int sec, int msec) {
+    unsigned long time = 0;
+    time += hour * 60 * 60 * 1000;
+    time += min * 60 * 1000;
+    time += sec * 1000;
+    time += msec;
+    return time;
+}
+
 bool Timer::update(){
     unsigned long now = startTime + targetTime;
     if(now > millis()) return Timer::getIsUnreached();

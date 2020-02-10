@@ -1,15 +1,13 @@
 #pragma once
 #include "Arduino.h"
-#include "DigitalPin.h"
+#include "DigitalPin/DigitalPin.h"
 class ColorLED {
 private:
     DigitalPin red, green, blue;
 
 public:
     ColorLED(int redPin, int greenPin, int bluePin);
-    void writeRed(bool mode);
-    void writeGreen(bool mode);
-    void writeBlue(bool mode);
+
 
     void writeRed(bool mode){
         red.write(mode);

@@ -1,16 +1,8 @@
 #define DEBUG
 #include <Arduino.h>
-#include "AnalogPin.h"
-#include "DigitalPin.h"
-#include "DigitalPin.cpp"
-#include "ColorLED.h"
-#include "ColorSensor.h"
-#include "Motor.h"
-#include "Motor.cpp"
-#include "PhotoReflector.h"
-#include "UltrasonicSensor.h"
-#include "RotaryEncoder.h"
-#include "RotaryEncoder.cpp"
+#include "DigitalPin/DigitalPin.h"
+#include "AnalogPin/AnalogPin.h"
+
 #define LINE_SENSOR_PIN_1 A3
 #define LINE_SENSOR_PIN_2 A5
 #define LINE_SENSOR_PIN_3 A1

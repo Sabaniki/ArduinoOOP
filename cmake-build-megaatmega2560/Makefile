@@ -266,329 +266,599 @@ PLATFORMIO_MONITOR/fast:
 	$(MAKE) -f CMakeFiles/PLATFORMIO_MONITOR.dir/build.make CMakeFiles/PLATFORMIO_MONITOR.dir/build
 .PHONY : PLATFORMIO_MONITOR/fast
 
-.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.o: .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o
+src/AnalogPin/AnalogPin.o: src/AnalogPin/AnalogPin.cpp.o
 
-.PHONY : .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.o
-
-# target to build an object file
-.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o
-.PHONY : .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.o
-
-.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.i: .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.i
-
-.PHONY : .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.i
-
-# target to preprocess a source file
-.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.i
-.PHONY : .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.i
-
-.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.s: .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.s
-
-.PHONY : .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.s
-
-# target to generate assembly for a file
-.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.s
-.PHONY : .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp.s
-
-.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.o: .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o
-
-.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.o
+.PHONY : src/AnalogPin/AnalogPin.o
 
 # target to build an object file
-.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o
-.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.o
+src/AnalogPin/AnalogPin.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.o
+.PHONY : src/AnalogPin/AnalogPin.cpp.o
 
-.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.i: .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i
+src/AnalogPin/AnalogPin.i: src/AnalogPin/AnalogPin.cpp.i
 
-.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.i
+.PHONY : src/AnalogPin/AnalogPin.i
 
 # target to preprocess a source file
-.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i
-.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.i
+src/AnalogPin/AnalogPin.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.i
+.PHONY : src/AnalogPin/AnalogPin.cpp.i
 
-.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.s: .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s
+src/AnalogPin/AnalogPin.s: src/AnalogPin/AnalogPin.cpp.s
 
-.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.s
+.PHONY : src/AnalogPin/AnalogPin.s
 
 # target to generate assembly for a file
-.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s
-.PHONY : .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp.s
+src/AnalogPin/AnalogPin.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/AnalogPin/AnalogPin.cpp.s
+.PHONY : src/AnalogPin/AnalogPin.cpp.s
 
-lib/AnalogPin/AnalogPin.o: lib/AnalogPin/AnalogPin.cpp.o
+src/ColorLED/ColorLED.o: src/ColorLED/ColorLED.cpp.o
 
-.PHONY : lib/AnalogPin/AnalogPin.o
+.PHONY : src/ColorLED/ColorLED.o
 
 # target to build an object file
-lib/AnalogPin/AnalogPin.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.o
-.PHONY : lib/AnalogPin/AnalogPin.cpp.o
+src/ColorLED/ColorLED.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.o
+.PHONY : src/ColorLED/ColorLED.cpp.o
 
-lib/AnalogPin/AnalogPin.i: lib/AnalogPin/AnalogPin.cpp.i
+src/ColorLED/ColorLED.i: src/ColorLED/ColorLED.cpp.i
 
-.PHONY : lib/AnalogPin/AnalogPin.i
+.PHONY : src/ColorLED/ColorLED.i
 
 # target to preprocess a source file
-lib/AnalogPin/AnalogPin.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.i
-.PHONY : lib/AnalogPin/AnalogPin.cpp.i
+src/ColorLED/ColorLED.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.i
+.PHONY : src/ColorLED/ColorLED.cpp.i
 
-lib/AnalogPin/AnalogPin.s: lib/AnalogPin/AnalogPin.cpp.s
+src/ColorLED/ColorLED.s: src/ColorLED/ColorLED.cpp.s
 
-.PHONY : lib/AnalogPin/AnalogPin.s
+.PHONY : src/ColorLED/ColorLED.s
 
 # target to generate assembly for a file
-lib/AnalogPin/AnalogPin.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/AnalogPin/AnalogPin.cpp.s
-.PHONY : lib/AnalogPin/AnalogPin.cpp.s
+src/ColorLED/ColorLED.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/ColorLED/ColorLED.cpp.s
+.PHONY : src/ColorLED/ColorLED.cpp.s
 
-lib/ColorLED/ColorLED.o: lib/ColorLED/ColorLED.cpp.o
+src/ColorSensor/ColorSensor.o: src/ColorSensor/ColorSensor.cpp.o
 
-.PHONY : lib/ColorLED/ColorLED.o
+.PHONY : src/ColorSensor/ColorSensor.o
 
 # target to build an object file
-lib/ColorLED/ColorLED.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.o
-.PHONY : lib/ColorLED/ColorLED.cpp.o
+src/ColorSensor/ColorSensor.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.o
+.PHONY : src/ColorSensor/ColorSensor.cpp.o
 
-lib/ColorLED/ColorLED.i: lib/ColorLED/ColorLED.cpp.i
+src/ColorSensor/ColorSensor.i: src/ColorSensor/ColorSensor.cpp.i
 
-.PHONY : lib/ColorLED/ColorLED.i
+.PHONY : src/ColorSensor/ColorSensor.i
 
 # target to preprocess a source file
-lib/ColorLED/ColorLED.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.i
-.PHONY : lib/ColorLED/ColorLED.cpp.i
+src/ColorSensor/ColorSensor.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.i
+.PHONY : src/ColorSensor/ColorSensor.cpp.i
 
-lib/ColorLED/ColorLED.s: lib/ColorLED/ColorLED.cpp.s
+src/ColorSensor/ColorSensor.s: src/ColorSensor/ColorSensor.cpp.s
 
-.PHONY : lib/ColorLED/ColorLED.s
+.PHONY : src/ColorSensor/ColorSensor.s
 
 # target to generate assembly for a file
-lib/ColorLED/ColorLED.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/ColorLED/ColorLED.cpp.s
-.PHONY : lib/ColorLED/ColorLED.cpp.s
+src/ColorSensor/ColorSensor.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/ColorSensor/ColorSensor.cpp.s
+.PHONY : src/ColorSensor/ColorSensor.cpp.s
 
-lib/ColorSensor/ColorSensor.o: lib/ColorSensor/ColorSensor.cpp.o
+src/DigitalPin/DigitalPin.o: src/DigitalPin/DigitalPin.cpp.o
 
-.PHONY : lib/ColorSensor/ColorSensor.o
+.PHONY : src/DigitalPin/DigitalPin.o
 
 # target to build an object file
-lib/ColorSensor/ColorSensor.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.o
-.PHONY : lib/ColorSensor/ColorSensor.cpp.o
+src/DigitalPin/DigitalPin.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.o
+.PHONY : src/DigitalPin/DigitalPin.cpp.o
 
-lib/ColorSensor/ColorSensor.i: lib/ColorSensor/ColorSensor.cpp.i
+src/DigitalPin/DigitalPin.i: src/DigitalPin/DigitalPin.cpp.i
 
-.PHONY : lib/ColorSensor/ColorSensor.i
+.PHONY : src/DigitalPin/DigitalPin.i
 
 # target to preprocess a source file
-lib/ColorSensor/ColorSensor.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.i
-.PHONY : lib/ColorSensor/ColorSensor.cpp.i
+src/DigitalPin/DigitalPin.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.i
+.PHONY : src/DigitalPin/DigitalPin.cpp.i
 
-lib/ColorSensor/ColorSensor.s: lib/ColorSensor/ColorSensor.cpp.s
+src/DigitalPin/DigitalPin.s: src/DigitalPin/DigitalPin.cpp.s
 
-.PHONY : lib/ColorSensor/ColorSensor.s
+.PHONY : src/DigitalPin/DigitalPin.s
 
 # target to generate assembly for a file
-lib/ColorSensor/ColorSensor.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/ColorSensor/ColorSensor.cpp.s
-.PHONY : lib/ColorSensor/ColorSensor.cpp.s
+src/DigitalPin/DigitalPin.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/DigitalPin/DigitalPin.cpp.s
+.PHONY : src/DigitalPin/DigitalPin.cpp.s
 
-lib/DigitalPin/DigitalPin.o: lib/DigitalPin/DigitalPin.cpp.o
+src/KuromikaLine/KuromikaLine.o: src/KuromikaLine/KuromikaLine.cpp.o
 
-.PHONY : lib/DigitalPin/DigitalPin.o
+.PHONY : src/KuromikaLine/KuromikaLine.o
 
 # target to build an object file
-lib/DigitalPin/DigitalPin.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.o
-.PHONY : lib/DigitalPin/DigitalPin.cpp.o
+src/KuromikaLine/KuromikaLine.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.o
+.PHONY : src/KuromikaLine/KuromikaLine.cpp.o
 
-lib/DigitalPin/DigitalPin.i: lib/DigitalPin/DigitalPin.cpp.i
+src/KuromikaLine/KuromikaLine.i: src/KuromikaLine/KuromikaLine.cpp.i
 
-.PHONY : lib/DigitalPin/DigitalPin.i
+.PHONY : src/KuromikaLine/KuromikaLine.i
 
 # target to preprocess a source file
-lib/DigitalPin/DigitalPin.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.i
-.PHONY : lib/DigitalPin/DigitalPin.cpp.i
+src/KuromikaLine/KuromikaLine.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.i
+.PHONY : src/KuromikaLine/KuromikaLine.cpp.i
 
-lib/DigitalPin/DigitalPin.s: lib/DigitalPin/DigitalPin.cpp.s
+src/KuromikaLine/KuromikaLine.s: src/KuromikaLine/KuromikaLine.cpp.s
 
-.PHONY : lib/DigitalPin/DigitalPin.s
+.PHONY : src/KuromikaLine/KuromikaLine.s
 
 # target to generate assembly for a file
-lib/DigitalPin/DigitalPin.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/DigitalPin/DigitalPin.cpp.s
-.PHONY : lib/DigitalPin/DigitalPin.cpp.s
+src/KuromikaLine/KuromikaLine.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/KuromikaLine/KuromikaLine.cpp.s
+.PHONY : src/KuromikaLine/KuromikaLine.cpp.s
 
-lib/KuromikaLine/KuromikaLine.o: lib/KuromikaLine/KuromikaLine.cpp.o
+src/Motor/Motor.o: src/Motor/Motor.cpp.o
 
-.PHONY : lib/KuromikaLine/KuromikaLine.o
+.PHONY : src/Motor/Motor.o
 
 # target to build an object file
-lib/KuromikaLine/KuromikaLine.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.o
-.PHONY : lib/KuromikaLine/KuromikaLine.cpp.o
+src/Motor/Motor.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.o
+.PHONY : src/Motor/Motor.cpp.o
 
-lib/KuromikaLine/KuromikaLine.i: lib/KuromikaLine/KuromikaLine.cpp.i
+src/Motor/Motor.i: src/Motor/Motor.cpp.i
 
-.PHONY : lib/KuromikaLine/KuromikaLine.i
+.PHONY : src/Motor/Motor.i
 
 # target to preprocess a source file
-lib/KuromikaLine/KuromikaLine.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.i
-.PHONY : lib/KuromikaLine/KuromikaLine.cpp.i
+src/Motor/Motor.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.i
+.PHONY : src/Motor/Motor.cpp.i
 
-lib/KuromikaLine/KuromikaLine.s: lib/KuromikaLine/KuromikaLine.cpp.s
+src/Motor/Motor.s: src/Motor/Motor.cpp.s
 
-.PHONY : lib/KuromikaLine/KuromikaLine.s
+.PHONY : src/Motor/Motor.s
 
 # target to generate assembly for a file
-lib/KuromikaLine/KuromikaLine.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/KuromikaLine/KuromikaLine.cpp.s
-.PHONY : lib/KuromikaLine/KuromikaLine.cpp.s
+src/Motor/Motor.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/Motor/Motor.cpp.s
+.PHONY : src/Motor/Motor.cpp.s
 
-lib/Motor/Motor.o: lib/Motor/Motor.cpp.o
+src/PhotoReflector/PhotoReflector.o: src/PhotoReflector/PhotoReflector.cpp.o
 
-.PHONY : lib/Motor/Motor.o
+.PHONY : src/PhotoReflector/PhotoReflector.o
 
 # target to build an object file
-lib/Motor/Motor.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.o
-.PHONY : lib/Motor/Motor.cpp.o
+src/PhotoReflector/PhotoReflector.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.o
+.PHONY : src/PhotoReflector/PhotoReflector.cpp.o
 
-lib/Motor/Motor.i: lib/Motor/Motor.cpp.i
+src/PhotoReflector/PhotoReflector.i: src/PhotoReflector/PhotoReflector.cpp.i
 
-.PHONY : lib/Motor/Motor.i
+.PHONY : src/PhotoReflector/PhotoReflector.i
 
 # target to preprocess a source file
-lib/Motor/Motor.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.i
-.PHONY : lib/Motor/Motor.cpp.i
+src/PhotoReflector/PhotoReflector.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.i
+.PHONY : src/PhotoReflector/PhotoReflector.cpp.i
 
-lib/Motor/Motor.s: lib/Motor/Motor.cpp.s
+src/PhotoReflector/PhotoReflector.s: src/PhotoReflector/PhotoReflector.cpp.s
 
-.PHONY : lib/Motor/Motor.s
+.PHONY : src/PhotoReflector/PhotoReflector.s
 
 # target to generate assembly for a file
-lib/Motor/Motor.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/Motor/Motor.cpp.s
-.PHONY : lib/Motor/Motor.cpp.s
+src/PhotoReflector/PhotoReflector.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/PhotoReflector/PhotoReflector.cpp.s
+.PHONY : src/PhotoReflector/PhotoReflector.cpp.s
 
-lib/PhotoReflector/PhotoReflector.o: lib/PhotoReflector/PhotoReflector.cpp.o
+src/RotaryEncoder/RotaryEncoder.o: src/RotaryEncoder/RotaryEncoder.cpp.o
 
-.PHONY : lib/PhotoReflector/PhotoReflector.o
+.PHONY : src/RotaryEncoder/RotaryEncoder.o
 
 # target to build an object file
-lib/PhotoReflector/PhotoReflector.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.o
-.PHONY : lib/PhotoReflector/PhotoReflector.cpp.o
+src/RotaryEncoder/RotaryEncoder.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.o
+.PHONY : src/RotaryEncoder/RotaryEncoder.cpp.o
 
-lib/PhotoReflector/PhotoReflector.i: lib/PhotoReflector/PhotoReflector.cpp.i
+src/RotaryEncoder/RotaryEncoder.i: src/RotaryEncoder/RotaryEncoder.cpp.i
 
-.PHONY : lib/PhotoReflector/PhotoReflector.i
+.PHONY : src/RotaryEncoder/RotaryEncoder.i
 
 # target to preprocess a source file
-lib/PhotoReflector/PhotoReflector.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.i
-.PHONY : lib/PhotoReflector/PhotoReflector.cpp.i
+src/RotaryEncoder/RotaryEncoder.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.i
+.PHONY : src/RotaryEncoder/RotaryEncoder.cpp.i
 
-lib/PhotoReflector/PhotoReflector.s: lib/PhotoReflector/PhotoReflector.cpp.s
+src/RotaryEncoder/RotaryEncoder.s: src/RotaryEncoder/RotaryEncoder.cpp.s
 
-.PHONY : lib/PhotoReflector/PhotoReflector.s
+.PHONY : src/RotaryEncoder/RotaryEncoder.s
 
 # target to generate assembly for a file
-lib/PhotoReflector/PhotoReflector.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/PhotoReflector/PhotoReflector.cpp.s
-.PHONY : lib/PhotoReflector/PhotoReflector.cpp.s
+src/RotaryEncoder/RotaryEncoder.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/RotaryEncoder/RotaryEncoder.cpp.s
+.PHONY : src/RotaryEncoder/RotaryEncoder.cpp.s
 
-lib/RotaryEncoder/RotaryEncoder.o: lib/RotaryEncoder/RotaryEncoder.cpp.o
+src/SubstrateTests/ColorSensorTest.o: src/SubstrateTests/ColorSensorTest.cpp.o
 
-.PHONY : lib/RotaryEncoder/RotaryEncoder.o
+.PHONY : src/SubstrateTests/ColorSensorTest.o
 
 # target to build an object file
-lib/RotaryEncoder/RotaryEncoder.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.o
-.PHONY : lib/RotaryEncoder/RotaryEncoder.cpp.o
+src/SubstrateTests/ColorSensorTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.o
+.PHONY : src/SubstrateTests/ColorSensorTest.cpp.o
 
-lib/RotaryEncoder/RotaryEncoder.i: lib/RotaryEncoder/RotaryEncoder.cpp.i
+src/SubstrateTests/ColorSensorTest.i: src/SubstrateTests/ColorSensorTest.cpp.i
 
-.PHONY : lib/RotaryEncoder/RotaryEncoder.i
+.PHONY : src/SubstrateTests/ColorSensorTest.i
 
 # target to preprocess a source file
-lib/RotaryEncoder/RotaryEncoder.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.i
-.PHONY : lib/RotaryEncoder/RotaryEncoder.cpp.i
+src/SubstrateTests/ColorSensorTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.i
+.PHONY : src/SubstrateTests/ColorSensorTest.cpp.i
 
-lib/RotaryEncoder/RotaryEncoder.s: lib/RotaryEncoder/RotaryEncoder.cpp.s
+src/SubstrateTests/ColorSensorTest.s: src/SubstrateTests/ColorSensorTest.cpp.s
 
-.PHONY : lib/RotaryEncoder/RotaryEncoder.s
+.PHONY : src/SubstrateTests/ColorSensorTest.s
 
 # target to generate assembly for a file
-lib/RotaryEncoder/RotaryEncoder.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/RotaryEncoder/RotaryEncoder.cpp.s
-.PHONY : lib/RotaryEncoder/RotaryEncoder.cpp.s
+src/SubstrateTests/ColorSensorTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ColorSensorTest.cpp.s
+.PHONY : src/SubstrateTests/ColorSensorTest.cpp.s
 
-lib/Timer/Timer.o: lib/Timer/Timer.cpp.o
+src/SubstrateTests/GyroTest.o: src/SubstrateTests/GyroTest.cpp.o
 
-.PHONY : lib/Timer/Timer.o
+.PHONY : src/SubstrateTests/GyroTest.o
 
 # target to build an object file
-lib/Timer/Timer.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.o
-.PHONY : lib/Timer/Timer.cpp.o
+src/SubstrateTests/GyroTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.o
+.PHONY : src/SubstrateTests/GyroTest.cpp.o
 
-lib/Timer/Timer.i: lib/Timer/Timer.cpp.i
+src/SubstrateTests/GyroTest.i: src/SubstrateTests/GyroTest.cpp.i
 
-.PHONY : lib/Timer/Timer.i
+.PHONY : src/SubstrateTests/GyroTest.i
 
 # target to preprocess a source file
-lib/Timer/Timer.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.i
-.PHONY : lib/Timer/Timer.cpp.i
+src/SubstrateTests/GyroTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.i
+.PHONY : src/SubstrateTests/GyroTest.cpp.i
 
-lib/Timer/Timer.s: lib/Timer/Timer.cpp.s
+src/SubstrateTests/GyroTest.s: src/SubstrateTests/GyroTest.cpp.s
 
-.PHONY : lib/Timer/Timer.s
+.PHONY : src/SubstrateTests/GyroTest.s
 
 # target to generate assembly for a file
-lib/Timer/Timer.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/Timer/Timer.cpp.s
-.PHONY : lib/Timer/Timer.cpp.s
+src/SubstrateTests/GyroTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/GyroTest.cpp.s
+.PHONY : src/SubstrateTests/GyroTest.cpp.s
 
-lib/UltrasonicSensor/UltrasonicSensor.o: lib/UltrasonicSensor/UltrasonicSensor.cpp.o
+src/SubstrateTests/LineSensorResultTest.o: src/SubstrateTests/LineSensorResultTest.cpp.o
 
-.PHONY : lib/UltrasonicSensor/UltrasonicSensor.o
+.PHONY : src/SubstrateTests/LineSensorResultTest.o
 
 # target to build an object file
-lib/UltrasonicSensor/UltrasonicSensor.cpp.o:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.o
-.PHONY : lib/UltrasonicSensor/UltrasonicSensor.cpp.o
+src/SubstrateTests/LineSensorResultTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.o
+.PHONY : src/SubstrateTests/LineSensorResultTest.cpp.o
 
-lib/UltrasonicSensor/UltrasonicSensor.i: lib/UltrasonicSensor/UltrasonicSensor.cpp.i
+src/SubstrateTests/LineSensorResultTest.i: src/SubstrateTests/LineSensorResultTest.cpp.i
 
-.PHONY : lib/UltrasonicSensor/UltrasonicSensor.i
+.PHONY : src/SubstrateTests/LineSensorResultTest.i
 
 # target to preprocess a source file
-lib/UltrasonicSensor/UltrasonicSensor.cpp.i:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.i
-.PHONY : lib/UltrasonicSensor/UltrasonicSensor.cpp.i
+src/SubstrateTests/LineSensorResultTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.i
+.PHONY : src/SubstrateTests/LineSensorResultTest.cpp.i
 
-lib/UltrasonicSensor/UltrasonicSensor.s: lib/UltrasonicSensor/UltrasonicSensor.cpp.s
+src/SubstrateTests/LineSensorResultTest.s: src/SubstrateTests/LineSensorResultTest.cpp.s
 
-.PHONY : lib/UltrasonicSensor/UltrasonicSensor.s
+.PHONY : src/SubstrateTests/LineSensorResultTest.s
 
 # target to generate assembly for a file
-lib/UltrasonicSensor/UltrasonicSensor.cpp.s:
-	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/lib/UltrasonicSensor/UltrasonicSensor.cpp.s
-.PHONY : lib/UltrasonicSensor/UltrasonicSensor.cpp.s
+src/SubstrateTests/LineSensorResultTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorResultTest.cpp.s
+.PHONY : src/SubstrateTests/LineSensorResultTest.cpp.s
+
+src/SubstrateTests/LineSensorValueTest.o: src/SubstrateTests/LineSensorValueTest.cpp.o
+
+.PHONY : src/SubstrateTests/LineSensorValueTest.o
+
+# target to build an object file
+src/SubstrateTests/LineSensorValueTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.o
+.PHONY : src/SubstrateTests/LineSensorValueTest.cpp.o
+
+src/SubstrateTests/LineSensorValueTest.i: src/SubstrateTests/LineSensorValueTest.cpp.i
+
+.PHONY : src/SubstrateTests/LineSensorValueTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/LineSensorValueTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.i
+.PHONY : src/SubstrateTests/LineSensorValueTest.cpp.i
+
+src/SubstrateTests/LineSensorValueTest.s: src/SubstrateTests/LineSensorValueTest.cpp.s
+
+.PHONY : src/SubstrateTests/LineSensorValueTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/LineSensorValueTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/LineSensorValueTest.cpp.s
+.PHONY : src/SubstrateTests/LineSensorValueTest.cpp.s
+
+src/SubstrateTests/MotorTest.o: src/SubstrateTests/MotorTest.cpp.o
+
+.PHONY : src/SubstrateTests/MotorTest.o
+
+# target to build an object file
+src/SubstrateTests/MotorTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.o
+.PHONY : src/SubstrateTests/MotorTest.cpp.o
+
+src/SubstrateTests/MotorTest.i: src/SubstrateTests/MotorTest.cpp.i
+
+.PHONY : src/SubstrateTests/MotorTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/MotorTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.i
+.PHONY : src/SubstrateTests/MotorTest.cpp.i
+
+src/SubstrateTests/MotorTest.s: src/SubstrateTests/MotorTest.cpp.s
+
+.PHONY : src/SubstrateTests/MotorTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/MotorTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/MotorTest.cpp.s
+.PHONY : src/SubstrateTests/MotorTest.cpp.s
+
+src/SubstrateTests/PhotoReflectorTest.o: src/SubstrateTests/PhotoReflectorTest.cpp.o
+
+.PHONY : src/SubstrateTests/PhotoReflectorTest.o
+
+# target to build an object file
+src/SubstrateTests/PhotoReflectorTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.o
+.PHONY : src/SubstrateTests/PhotoReflectorTest.cpp.o
+
+src/SubstrateTests/PhotoReflectorTest.i: src/SubstrateTests/PhotoReflectorTest.cpp.i
+
+.PHONY : src/SubstrateTests/PhotoReflectorTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/PhotoReflectorTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.i
+.PHONY : src/SubstrateTests/PhotoReflectorTest.cpp.i
+
+src/SubstrateTests/PhotoReflectorTest.s: src/SubstrateTests/PhotoReflectorTest.cpp.s
+
+.PHONY : src/SubstrateTests/PhotoReflectorTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/PhotoReflectorTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/PhotoReflectorTest.cpp.s
+.PHONY : src/SubstrateTests/PhotoReflectorTest.cpp.s
+
+src/SubstrateTests/RotaryEncoderTest.o: src/SubstrateTests/RotaryEncoderTest.cpp.o
+
+.PHONY : src/SubstrateTests/RotaryEncoderTest.o
+
+# target to build an object file
+src/SubstrateTests/RotaryEncoderTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.o
+.PHONY : src/SubstrateTests/RotaryEncoderTest.cpp.o
+
+src/SubstrateTests/RotaryEncoderTest.i: src/SubstrateTests/RotaryEncoderTest.cpp.i
+
+.PHONY : src/SubstrateTests/RotaryEncoderTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/RotaryEncoderTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.i
+.PHONY : src/SubstrateTests/RotaryEncoderTest.cpp.i
+
+src/SubstrateTests/RotaryEncoderTest.s: src/SubstrateTests/RotaryEncoderTest.cpp.s
+
+.PHONY : src/SubstrateTests/RotaryEncoderTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/RotaryEncoderTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderTest.cpp.s
+.PHONY : src/SubstrateTests/RotaryEncoderTest.cpp.s
+
+src/SubstrateTests/RotaryEncoderValueTest.o: src/SubstrateTests/RotaryEncoderValueTest.cpp.o
+
+.PHONY : src/SubstrateTests/RotaryEncoderValueTest.o
+
+# target to build an object file
+src/SubstrateTests/RotaryEncoderValueTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.o
+.PHONY : src/SubstrateTests/RotaryEncoderValueTest.cpp.o
+
+src/SubstrateTests/RotaryEncoderValueTest.i: src/SubstrateTests/RotaryEncoderValueTest.cpp.i
+
+.PHONY : src/SubstrateTests/RotaryEncoderValueTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/RotaryEncoderValueTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.i
+.PHONY : src/SubstrateTests/RotaryEncoderValueTest.cpp.i
+
+src/SubstrateTests/RotaryEncoderValueTest.s: src/SubstrateTests/RotaryEncoderValueTest.cpp.s
+
+.PHONY : src/SubstrateTests/RotaryEncoderValueTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/RotaryEncoderValueTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/RotaryEncoderValueTest.cpp.s
+.PHONY : src/SubstrateTests/RotaryEncoderValueTest.cpp.s
+
+src/SubstrateTests/ServoTest.o: src/SubstrateTests/ServoTest.cpp.o
+
+.PHONY : src/SubstrateTests/ServoTest.o
+
+# target to build an object file
+src/SubstrateTests/ServoTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.o
+.PHONY : src/SubstrateTests/ServoTest.cpp.o
+
+src/SubstrateTests/ServoTest.i: src/SubstrateTests/ServoTest.cpp.i
+
+.PHONY : src/SubstrateTests/ServoTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/ServoTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.i
+.PHONY : src/SubstrateTests/ServoTest.cpp.i
+
+src/SubstrateTests/ServoTest.s: src/SubstrateTests/ServoTest.cpp.s
+
+.PHONY : src/SubstrateTests/ServoTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/ServoTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/ServoTest.cpp.s
+.PHONY : src/SubstrateTests/ServoTest.cpp.s
+
+src/SubstrateTests/SwitchTest.o: src/SubstrateTests/SwitchTest.cpp.o
+
+.PHONY : src/SubstrateTests/SwitchTest.o
+
+# target to build an object file
+src/SubstrateTests/SwitchTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.o
+.PHONY : src/SubstrateTests/SwitchTest.cpp.o
+
+src/SubstrateTests/SwitchTest.i: src/SubstrateTests/SwitchTest.cpp.i
+
+.PHONY : src/SubstrateTests/SwitchTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/SwitchTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.i
+.PHONY : src/SubstrateTests/SwitchTest.cpp.i
+
+src/SubstrateTests/SwitchTest.s: src/SubstrateTests/SwitchTest.cpp.s
+
+.PHONY : src/SubstrateTests/SwitchTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/SwitchTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/SwitchTest.cpp.s
+.PHONY : src/SubstrateTests/SwitchTest.cpp.s
+
+src/SubstrateTests/TimerTest.o: src/SubstrateTests/TimerTest.cpp.o
+
+.PHONY : src/SubstrateTests/TimerTest.o
+
+# target to build an object file
+src/SubstrateTests/TimerTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.o
+.PHONY : src/SubstrateTests/TimerTest.cpp.o
+
+src/SubstrateTests/TimerTest.i: src/SubstrateTests/TimerTest.cpp.i
+
+.PHONY : src/SubstrateTests/TimerTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/TimerTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.i
+.PHONY : src/SubstrateTests/TimerTest.cpp.i
+
+src/SubstrateTests/TimerTest.s: src/SubstrateTests/TimerTest.cpp.s
+
+.PHONY : src/SubstrateTests/TimerTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/TimerTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/TimerTest.cpp.s
+.PHONY : src/SubstrateTests/TimerTest.cpp.s
+
+src/SubstrateTests/USSTest.o: src/SubstrateTests/USSTest.cpp.o
+
+.PHONY : src/SubstrateTests/USSTest.o
+
+# target to build an object file
+src/SubstrateTests/USSTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.o
+.PHONY : src/SubstrateTests/USSTest.cpp.o
+
+src/SubstrateTests/USSTest.i: src/SubstrateTests/USSTest.cpp.i
+
+.PHONY : src/SubstrateTests/USSTest.i
+
+# target to preprocess a source file
+src/SubstrateTests/USSTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.i
+.PHONY : src/SubstrateTests/USSTest.cpp.i
+
+src/SubstrateTests/USSTest.s: src/SubstrateTests/USSTest.cpp.s
+
+.PHONY : src/SubstrateTests/USSTest.s
+
+# target to generate assembly for a file
+src/SubstrateTests/USSTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/SubstrateTests/USSTest.cpp.s
+.PHONY : src/SubstrateTests/USSTest.cpp.s
+
+src/Timer/Timer.o: src/Timer/Timer.cpp.o
+
+.PHONY : src/Timer/Timer.o
+
+# target to build an object file
+src/Timer/Timer.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.o
+.PHONY : src/Timer/Timer.cpp.o
+
+src/Timer/Timer.i: src/Timer/Timer.cpp.i
+
+.PHONY : src/Timer/Timer.i
+
+# target to preprocess a source file
+src/Timer/Timer.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.i
+.PHONY : src/Timer/Timer.cpp.i
+
+src/Timer/Timer.s: src/Timer/Timer.cpp.s
+
+.PHONY : src/Timer/Timer.s
+
+# target to generate assembly for a file
+src/Timer/Timer.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/Timer/Timer.cpp.s
+.PHONY : src/Timer/Timer.cpp.s
+
+src/UltrasonicSensor/UltrasonicSensor.o: src/UltrasonicSensor/UltrasonicSensor.cpp.o
+
+.PHONY : src/UltrasonicSensor/UltrasonicSensor.o
+
+# target to build an object file
+src/UltrasonicSensor/UltrasonicSensor.cpp.o:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.o
+.PHONY : src/UltrasonicSensor/UltrasonicSensor.cpp.o
+
+src/UltrasonicSensor/UltrasonicSensor.i: src/UltrasonicSensor/UltrasonicSensor.cpp.i
+
+.PHONY : src/UltrasonicSensor/UltrasonicSensor.i
+
+# target to preprocess a source file
+src/UltrasonicSensor/UltrasonicSensor.cpp.i:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.i
+.PHONY : src/UltrasonicSensor/UltrasonicSensor.cpp.i
+
+src/UltrasonicSensor/UltrasonicSensor.s: src/UltrasonicSensor/UltrasonicSensor.cpp.s
+
+.PHONY : src/UltrasonicSensor/UltrasonicSensor.s
+
+# target to generate assembly for a file
+src/UltrasonicSensor/UltrasonicSensor.cpp.s:
+	$(MAKE) -f CMakeFiles/ArduinoOOP.dir/build.make CMakeFiles/ArduinoOOP.dir/src/UltrasonicSensor/UltrasonicSensor.cpp.s
+.PHONY : src/UltrasonicSensor/UltrasonicSensor.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -637,42 +907,72 @@ help:
 	@echo "... PLATFORMIO_CLEAN"
 	@echo "... PLATFORMIO_BUILD_VERBOSE"
 	@echo "... PLATFORMIO_MONITOR"
-	@echo "... .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.o"
-	@echo "... .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.i"
-	@echo "... .pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.s"
-	@echo "... .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.o"
-	@echo "... .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.i"
-	@echo "... .pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.s"
-	@echo "... lib/AnalogPin/AnalogPin.o"
-	@echo "... lib/AnalogPin/AnalogPin.i"
-	@echo "... lib/AnalogPin/AnalogPin.s"
-	@echo "... lib/ColorLED/ColorLED.o"
-	@echo "... lib/ColorLED/ColorLED.i"
-	@echo "... lib/ColorLED/ColorLED.s"
-	@echo "... lib/ColorSensor/ColorSensor.o"
-	@echo "... lib/ColorSensor/ColorSensor.i"
-	@echo "... lib/ColorSensor/ColorSensor.s"
-	@echo "... lib/DigitalPin/DigitalPin.o"
-	@echo "... lib/DigitalPin/DigitalPin.i"
-	@echo "... lib/DigitalPin/DigitalPin.s"
-	@echo "... lib/KuromikaLine/KuromikaLine.o"
-	@echo "... lib/KuromikaLine/KuromikaLine.i"
-	@echo "... lib/KuromikaLine/KuromikaLine.s"
-	@echo "... lib/Motor/Motor.o"
-	@echo "... lib/Motor/Motor.i"
-	@echo "... lib/Motor/Motor.s"
-	@echo "... lib/PhotoReflector/PhotoReflector.o"
-	@echo "... lib/PhotoReflector/PhotoReflector.i"
-	@echo "... lib/PhotoReflector/PhotoReflector.s"
-	@echo "... lib/RotaryEncoder/RotaryEncoder.o"
-	@echo "... lib/RotaryEncoder/RotaryEncoder.i"
-	@echo "... lib/RotaryEncoder/RotaryEncoder.s"
-	@echo "... lib/Timer/Timer.o"
-	@echo "... lib/Timer/Timer.i"
-	@echo "... lib/Timer/Timer.s"
-	@echo "... lib/UltrasonicSensor/UltrasonicSensor.o"
-	@echo "... lib/UltrasonicSensor/UltrasonicSensor.i"
-	@echo "... lib/UltrasonicSensor/UltrasonicSensor.s"
+	@echo "... src/AnalogPin/AnalogPin.o"
+	@echo "... src/AnalogPin/AnalogPin.i"
+	@echo "... src/AnalogPin/AnalogPin.s"
+	@echo "... src/ColorLED/ColorLED.o"
+	@echo "... src/ColorLED/ColorLED.i"
+	@echo "... src/ColorLED/ColorLED.s"
+	@echo "... src/ColorSensor/ColorSensor.o"
+	@echo "... src/ColorSensor/ColorSensor.i"
+	@echo "... src/ColorSensor/ColorSensor.s"
+	@echo "... src/DigitalPin/DigitalPin.o"
+	@echo "... src/DigitalPin/DigitalPin.i"
+	@echo "... src/DigitalPin/DigitalPin.s"
+	@echo "... src/KuromikaLine/KuromikaLine.o"
+	@echo "... src/KuromikaLine/KuromikaLine.i"
+	@echo "... src/KuromikaLine/KuromikaLine.s"
+	@echo "... src/Motor/Motor.o"
+	@echo "... src/Motor/Motor.i"
+	@echo "... src/Motor/Motor.s"
+	@echo "... src/PhotoReflector/PhotoReflector.o"
+	@echo "... src/PhotoReflector/PhotoReflector.i"
+	@echo "... src/PhotoReflector/PhotoReflector.s"
+	@echo "... src/RotaryEncoder/RotaryEncoder.o"
+	@echo "... src/RotaryEncoder/RotaryEncoder.i"
+	@echo "... src/RotaryEncoder/RotaryEncoder.s"
+	@echo "... src/SubstrateTests/ColorSensorTest.o"
+	@echo "... src/SubstrateTests/ColorSensorTest.i"
+	@echo "... src/SubstrateTests/ColorSensorTest.s"
+	@echo "... src/SubstrateTests/GyroTest.o"
+	@echo "... src/SubstrateTests/GyroTest.i"
+	@echo "... src/SubstrateTests/GyroTest.s"
+	@echo "... src/SubstrateTests/LineSensorResultTest.o"
+	@echo "... src/SubstrateTests/LineSensorResultTest.i"
+	@echo "... src/SubstrateTests/LineSensorResultTest.s"
+	@echo "... src/SubstrateTests/LineSensorValueTest.o"
+	@echo "... src/SubstrateTests/LineSensorValueTest.i"
+	@echo "... src/SubstrateTests/LineSensorValueTest.s"
+	@echo "... src/SubstrateTests/MotorTest.o"
+	@echo "... src/SubstrateTests/MotorTest.i"
+	@echo "... src/SubstrateTests/MotorTest.s"
+	@echo "... src/SubstrateTests/PhotoReflectorTest.o"
+	@echo "... src/SubstrateTests/PhotoReflectorTest.i"
+	@echo "... src/SubstrateTests/PhotoReflectorTest.s"
+	@echo "... src/SubstrateTests/RotaryEncoderTest.o"
+	@echo "... src/SubstrateTests/RotaryEncoderTest.i"
+	@echo "... src/SubstrateTests/RotaryEncoderTest.s"
+	@echo "... src/SubstrateTests/RotaryEncoderValueTest.o"
+	@echo "... src/SubstrateTests/RotaryEncoderValueTest.i"
+	@echo "... src/SubstrateTests/RotaryEncoderValueTest.s"
+	@echo "... src/SubstrateTests/ServoTest.o"
+	@echo "... src/SubstrateTests/ServoTest.i"
+	@echo "... src/SubstrateTests/ServoTest.s"
+	@echo "... src/SubstrateTests/SwitchTest.o"
+	@echo "... src/SubstrateTests/SwitchTest.i"
+	@echo "... src/SubstrateTests/SwitchTest.s"
+	@echo "... src/SubstrateTests/TimerTest.o"
+	@echo "... src/SubstrateTests/TimerTest.i"
+	@echo "... src/SubstrateTests/TimerTest.s"
+	@echo "... src/SubstrateTests/USSTest.o"
+	@echo "... src/SubstrateTests/USSTest.i"
+	@echo "... src/SubstrateTests/USSTest.s"
+	@echo "... src/Timer/Timer.o"
+	@echo "... src/Timer/Timer.i"
+	@echo "... src/Timer/Timer.s"
+	@echo "... src/UltrasonicSensor/UltrasonicSensor.o"
+	@echo "... src/UltrasonicSensor/UltrasonicSensor.i"
+	@echo "... src/UltrasonicSensor/UltrasonicSensor.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

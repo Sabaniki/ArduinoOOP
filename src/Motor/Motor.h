@@ -1,5 +1,5 @@
 #pragma once
-#include "AnalogPin.h"
+#include "AnalogPin/AnalogPin.h"
 #include "Motor.h"
 #include "Arduino.h"
 class Motor {

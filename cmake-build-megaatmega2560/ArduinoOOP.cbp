@@ -36,21 +36,9 @@
 				<Compiler>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/include"/>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer"/>
+					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/mega"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin"/>
-					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
@@ -83,21 +71,9 @@
 				<Compiler>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/include"/>
 					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer"/>
+					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/mega"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin"/>
-					<Add directory="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin"/>
-					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
 					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
@@ -245,85 +221,103 @@
 		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/.DS_Store">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/.pio/.piopkgmanager.json">
-			<Option target="ArduinoOOP"/>
-		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.cpp">
-			<Option target="ArduinoOOP"/>
-		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/AnalogPin/AnalogPin.h">
-			<Option target="ArduinoOOP"/>
-		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/.pio/.piopkgmanager.json">
-			<Option target="ArduinoOOP"/>
-		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.cpp">
-			<Option target="ArduinoOOP"/>
-		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/.pio/libdeps/megaatmega2560/DigitalPin/DigitalPin.h">
-			<Option target="ArduinoOOP"/>
-		</Unit>
 		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/.DS_Store">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin/AnalogPin.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/AnalogPin/AnalogPin.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/AnalogPin/AnalogPin.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/AnalogPin/AnalogPin.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED/ColorLED.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorLED/ColorLED.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorLED/ColorLED.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorLED/ColorLED.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor/ColorSensor.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorSensor/ColorSensor.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/ColorSensor/ColorSensor.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/ColorSensor/ColorSensor.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin/DigitalPin.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/DigitalPin/DigitalPin.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/DigitalPin/DigitalPin.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/DigitalPin/DigitalPin.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine/KuromikaLine.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/KuromikaLine/KuromikaLine.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/KuromikaLine/KuromikaLine.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/KuromikaLine/KuromikaLine.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor/Motor.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Motor/Motor.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Motor/Motor.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Motor/Motor.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector/PhotoReflector.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/PhotoReflector/PhotoReflector.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/PhotoReflector/PhotoReflector.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/PhotoReflector/PhotoReflector.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder/RotaryEncoder.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/RotaryEncoder/RotaryEncoder.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/RotaryEncoder/RotaryEncoder.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/RotaryEncoder/RotaryEncoder.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer/Timer.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ColorSensorTest.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/Timer/Timer.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/GyroTest.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor/UltrasonicSensor.cpp">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorResultTest.cpp">
 			<Option target="ArduinoOOP"/>
 		</Unit>
-		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/lib/UltrasonicSensor/UltrasonicSensor.h">
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/LineSensorValueTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/MotorTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/PhotoReflectorTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/RotaryEncoderValueTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/ServoTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/SwitchTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/TimerTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/SubstrateTests/USSTest.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Timer/Timer.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/Timer/Timer.h">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/UltrasonicSensor/UltrasonicSensor.cpp">
+			<Option target="ArduinoOOP"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/UltrasonicSensor/UltrasonicSensor.h">
 			<Option target="ArduinoOOP"/>
 		</Unit>
 		<Unit filename="/Users/sabac/MyPrograms/Arduino/ArduinoOOP/src/main.cpp">

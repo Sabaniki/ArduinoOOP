@@ -1,7 +1,7 @@
 #pragma once
 #include "RotaryEncoder.h"
 #include "Arduino.h"
-#include "PhotoReflector.h"
+#include "PhotoReflector/PhotoReflector.h"
 
 class RotaryEncoder {
 private:

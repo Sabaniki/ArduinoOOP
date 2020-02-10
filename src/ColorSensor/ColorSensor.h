@@ -1,6 +1,6 @@
 #pragma once
-#include "ColorLED.h"
-#include "AnalogPin.h"
+#include "ColorLED/ColorLED.h"
+#include "AnalogPin/AnalogPin.h"
 class ColorSensor {
 private:
     int thresholds[3][3];

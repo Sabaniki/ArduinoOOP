@@ -1,8 +1,8 @@
 #pragma once
 #include "KuromikaLine.h"
 #include "Arduino.h"
-#include "AnalogPin.h"
-#include "DigitalPin.h"
+#include "AnalogPin/AnalogPin.h"
+#include "DigitalPin/DigitalPin.h"
 class KuromikaLine {
 private:
 private:

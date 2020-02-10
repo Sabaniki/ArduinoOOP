@@ -1,8 +1,8 @@
 #pragma once
 #include "PhotoReflector.h"
 #include "Arduino.h"
-#include "DigitalPin.h"
-#include "AnalogPin.h"
+#include "DigitalPin/DigitalPin.h"
+#include "AnalogPin/AnalogPin.h"
 class PhotoReflector{
 private:
     DigitalPin readerPinD;

@@ -27,4 +27,3 @@ inline bool PhotoReflector::read(){
 inline bool PhotoReflector::getIsBlack(){
     return isBlack;
 }
-#endif

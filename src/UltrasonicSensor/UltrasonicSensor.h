@@ -1,7 +1,7 @@
 #pragma once
 #include "UltrasonicSensor.h"
 #include "Arduino.h"
-#include "DigitalPin.h"
+#include "DigitalPin/DigitalPin.h"
 // #include "DigitalPin.cpp"
 class UltrasonicSensor {
 private:
