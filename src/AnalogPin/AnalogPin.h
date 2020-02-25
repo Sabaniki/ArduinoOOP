@@ -6,8 +6,8 @@ private:
     bool useOffset;
 
 public:
-    AnalogPin(const int pin);
-    AnalogPin(const int pin, int offset);
+    explicit AnalogPin(int pin);
+    AnalogPin(int pin, int offset);
     AnalogPin();
 
     int read() {

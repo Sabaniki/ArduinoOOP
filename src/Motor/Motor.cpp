@@ -1,10 +1,9 @@
 #include "Motor.h"
 
-Motor::Motor(int Fpin, int Bpin):
-front(Fpin),
-back(Bpin),
-mode(Brake) {
-
+Motor::Motor(int Fpin, int Bpin) :
+        front(Fpin),
+        back(Bpin),
+        mode(Brake) {
 }
 
 void Motor::stop() {
@@ -15,24 +14,24 @@ void Motor::stop() {
 
 void Motor::write(int speed) {
     speed = constrain(speed, -255, 255);
-    if(speed > 0){
-        if(mode != Front)
+    if (speed > 0) {
+        if (mode != Front)
             stop();
         front.write(speed);
         back.write(0);
         mode = Front;
     }
-    else if(!speed){
-        if(mode != Brake)
+    else if (!speed) {
+        if (mode != Brake)
             stop();
         front.write(255);
         back.write(255);
         mode = Brake;
     }
     else {
-        if(mode != Back)
+        if (mode != Back)
             front.write(0);
-            back.write(-speed);
+        back.write(-speed);
         mode = Back;
     }
 }

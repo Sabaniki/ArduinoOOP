@@ -7,13 +7,15 @@ void setup() {
     Serial.begin(9600);
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmissing-noreturn"
 void loop() {
-    auto vcc = DigitalPin(22, OUTPUT);
-    vcc.write(HIGH);
-    delay(50);
-    auto uccSensor = UltrasonicSensor(10, 11);
+    auto led = DigitalPin(13, OUTPUT);
     while (true){
-        Serial.print(uccSensor.readDistance());
-        Serial.println(" cm");
+        led.write(HIGH);
+        delay(5000);
+        led.write(LOW);
+        delay(5000);
     }
 }
+#pragma clang diagnostic pop

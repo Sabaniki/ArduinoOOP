@@ -1,16 +1,15 @@
 #include "RotaryEncoder.h"
 
-RotaryEncoder::RotaryEncoder(int readerPin, int thresholdOfPht):
-    pht(readerPin, thresholdOfPht) {
-
+RotaryEncoder::RotaryEncoder(int readerPin, int thresholdOfPht) :
+        pht(readerPin, thresholdOfPht) {
 }
 
-bool RotaryEncoder::until(int count){
-    if(finished)
+bool RotaryEncoder::until(int count) {
+    if (finished)
         currentCount = count;
     nowState = pht.read();
     finished = false;
-    if(beforeState != nowState){
+    if (beforeState != nowState) {
         currentCount--;
         finished = !(currentCount > 0);
     }
@@ -19,6 +18,6 @@ bool RotaryEncoder::until(int count){
     return !finished;
 }
 
-inline int RotaryEncoder::getCurrentCount(){
+inline int RotaryEncoder::getCurrentCount() {
     return currentCount;
 }

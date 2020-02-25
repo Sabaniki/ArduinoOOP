@@ -11,7 +11,7 @@ private:
     int threshold;
 
 public:
-    PhotoReflector(int pin);
+    explicit PhotoReflector(int pin);
     PhotoReflector(int pin, int threshold);
     bool read();    // 内部でdigitalReadしてboolを返す
     bool getIsBlack();  // 前回のdigitalRead結果を返す
